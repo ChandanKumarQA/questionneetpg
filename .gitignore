@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+
+# Large archives (>100MB exceeds GitHub hard limit)
+Medicus_ED8_MCQ_Portal.zip
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
