@@ -121,8 +121,12 @@ def decode_page(page):
                         out.append(bytes.fromhex(eh).decode('latin-1', errors='ignore'))
                 elif ep:
                     out.append(ep)
-                elif num and float(num) < -150:
-                    out.append(' ')
+                elif num:
+                    try:
+                        if float(num) < -150:
+                            out.append(' ')
+                    except ValueError:
+                        pass
     return clean_escapes(''.join(out))
 
 def save_image_object(xo, out_path):
@@ -131,7 +135,14 @@ def save_image_object(xo, out_path):
         data = obj.get_data()
         filt = obj.get('/Filter')
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
-        if filt == '/DCTDecode':
+        # Check JPEG magic bytes or DCTDecode
+        is_dct = False
+        if filt == '/DCTDecode' or (isinstance(filt, (list, tuple)) and '/DCTDecode' in filt):
+            is_dct = True
+        elif data.startswith(b'\xff\xd8\xff'):
+            is_dct = True
+            
+        if is_dct:
             with open(out_path, 'wb') as f:
                 f.write(data)
             try:
@@ -141,7 +152,12 @@ def save_image_object(xo, out_path):
                     im.save(out_path, 'JPEG', quality=85)
             except: pass
             return True
-        elif filt == '/FlateDecode':
+            
+        is_flate = False
+        if filt == '/FlateDecode' or (isinstance(filt, (list, tuple)) and '/FlateDecode' in filt):
+            is_flate = True
+            
+        if is_flate:
             w = obj.get('/Width')
             h = obj.get('/Height')
             if not w or not h: return False
