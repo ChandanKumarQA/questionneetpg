@@ -1,4 +1,4 @@
-import PyPDF2, struct, re, time, glob, os, json
+import PyPDF2, struct, re, time, glob, os, json, io
 from PIL import Image
 
 print("Initializing Font Engine & Image Extractor...")
@@ -134,41 +134,61 @@ def save_image_object(xo, out_path):
         obj = xo.get_object()
         data = obj.get_data()
         filt = obj.get('/Filter')
+        w = obj.get('/Width')
+        h = obj.get('/Height')
+        cs_raw = obj.get('/ColorSpace')
+        cs = cs_raw.get_object() if hasattr(cs_raw, 'get_object') else cs_raw
+
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
-        # Check JPEG magic bytes or DCTDecode
-        is_dct = False
-        if filt == '/DCTDecode' or (isinstance(filt, (list, tuple)) and '/DCTDecode' in filt):
-            is_dct = True
-        elif data.startswith(b'\xff\xd8\xff'):
-            is_dct = True
-            
-        if is_dct:
-            with open(out_path, 'wb') as f:
-                f.write(data)
-            try:
-                im = Image.open(out_path)
-                if im.mode == 'CMYK':
-                    im = im.convert('RGB')
-                    im.save(out_path, 'JPEG', quality=85)
-            except: pass
+
+        # 1. JPEG
+        if filt == '/DCTDecode' or (isinstance(filt, (list, tuple)) and '/DCTDecode' in filt) or data.startswith(b'\xff\xd8\xff'):
+            im = Image.open(io.BytesIO(data))
+            if im.mode == 'CMYK':
+                im = im.convert('RGB')
+            im.save(out_path, 'JPEG', quality=90)
             return True
+
+        # 2. FlateDecode or Raw bytes
+        if w and h:
+            # Indexed Color Space
+            if isinstance(cs, list) and len(cs) >= 4 and cs[0] == '/Indexed':
+                pal_raw = cs[3].get_object() if hasattr(cs[3], 'get_object') else cs[3]
+                pal_data = pal_raw.get_data() if hasattr(pal_raw, 'get_data') else bytes(pal_raw)
+                im = Image.frombytes('P', (w, h), data)
+                im.putpalette(pal_data)
+                im = im.convert('RGB')
+                im.save(out_path, 'JPEG', quality=90)
+                return True
             
-        is_flate = False
-        if filt == '/FlateDecode' or (isinstance(filt, (list, tuple)) and '/FlateDecode' in filt):
-            is_flate = True
-            
-        if is_flate:
-            w = obj.get('/Width')
-            h = obj.get('/Height')
-            if not w or not h: return False
-            cs = obj.get('/ColorSpace')
-            mode = 'RGB' if cs == '/DeviceRGB' else ('L' if cs == '/DeviceGray' else 'RGB')
-            im = Image.frombytes(mode, (w, h), data)
-            im.save(out_path, 'JPEG', quality=85)
-            return True
-    except:
+            # RGB
+            if len(data) == w * h * 3:
+                im = Image.frombytes('RGB', (w, h), data)
+                im.save(out_path, 'JPEG', quality=90)
+                return True
+                
+            # Grayscale
+            if len(data) == w * h:
+                im = Image.frombytes('L', (w, h), data)
+                im = im.convert('RGB')
+                im.save(out_path, 'JPEG', quality=90)
+                return True
+
+            # CMYK
+            if len(data) == w * h * 4:
+                im = Image.frombytes('CMYK', (w, h), data)
+                im = im.convert('RGB')
+                im.save(out_path, 'JPEG', quality=90)
+                return True
+
+        # Fallback to PIL Image.open
+        im = Image.open(io.BytesIO(data))
+        if im.mode != 'RGB':
+            im = im.convert('RGB')
+        im.save(out_path, 'JPEG', quality=90)
+        return True
+    except Exception:
         return False
-    return False
 
 def extract_subject(pdf_file):
     t_start = time.time()
@@ -301,10 +321,8 @@ def extract_subject(pdf_file):
                     'answer': ans_key.get(qn, ''),
                     'explanation': sols.get(qn, '')
                 }
-                if saved_q_imgs:
-                    mcq_obj['images'] = saved_q_imgs
-                if saved_sol_imgs:
-                    mcq_obj['solution_images'] = saved_sol_imgs
+                mcq_obj['images'] = saved_q_imgs
+                mcq_obj['solution_images'] = saved_sol_imgs
                 
                 all_mcqs.append(mcq_obj)
                 
@@ -312,71 +330,73 @@ def extract_subject(pdf_file):
     print(f"✓ {subj_name}: {len(all_mcqs)} MCQs ({total_q_imgs} Q-images, {total_sol_imgs} Sol-images) in {elapsed:.1f}s")
     return subj_name, chapters, all_mcqs
 
-pdf_files = sorted(glob.glob('maro/*_ed8.pdf') or glob.glob('*_ed8.pdf'))
-if not pdf_files:
-    print("No _ed8.pdf files found in maro/ or current directory!")
-all_data = {}
-total_extracted_mcqs = 0
-total_all_q_imgs = 0
-total_all_sol_imgs = 0
+if __name__ == '__main__':
+    pdf_files = sorted(glob.glob('maro/*_ed8.pdf') or glob.glob('*_ed8.pdf'))
+    if not pdf_files:
+        print("No _ed8.pdf files found in maro/ or current directory!")
+    all_data = {}
+    total_extracted_mcqs = 0
+    total_all_q_imgs = 0
+    total_all_sol_imgs = 0
 
-for pdf in pdf_files:
-    subj, chs, mcqs = extract_subject(pdf)
-    total_extracted_mcqs += len(mcqs)
-    q_imgs_count = sum(len(m.get('images', [])) for m in mcqs)
-    sol_imgs_count = sum(len(m.get('solution_images', [])) for m in mcqs)
-    total_all_q_imgs += q_imgs_count
-    total_all_sol_imgs += sol_imgs_count
-    
-    all_data[subj] = {
-        'total_extracted': len(mcqs),
-        'chapters_count': len(chs),
-        'chapters': [{'num': c[0], 'title': c[1], 'page': c[2]} for c in chs],
-        'question_images_count': q_imgs_count,
-        'solution_images_count': sol_imgs_count,
-        'mcqs': mcqs
-    }
+    for pdf in pdf_files:
+        subj, chs, mcqs = extract_subject(pdf)
+        total_extracted_mcqs += len(mcqs)
+        q_imgs_count = sum(len(m.get('images', [])) for m in mcqs)
+        sol_imgs_count = sum(len(m.get('solution_images', [])) for m in mcqs)
+        total_all_q_imgs += q_imgs_count
+        total_all_sol_imgs += sol_imgs_count
+        
+        all_data[subj] = {
+            'total_extracted': len(mcqs),
+            'chapters_count': len(chs),
+            'chapters': [{'num': c[0], 'title': c[1], 'page': c[2]} for c in chs],
+            'question_images_count': q_imgs_count,
+            'solution_images_count': sol_imgs_count,
+            'mcqs': mcqs
+        }
 
-print(f"\n==========================================")
-print(f"Total Subjects: {len(all_data)}")
-print(f"Total MCQs Extracted: {total_extracted_mcqs}")
-print(f"Total Question Images Saved: {total_all_q_imgs}")
-print(f"Total Solution Images Saved: {total_all_sol_imgs}")
-print(f"==========================================")
+    print(f"\n==========================================")
+    print(f"Total Subjects: {len(all_data)}")
+    print(f"Total MCQs Extracted: {total_extracted_mcqs}")
+    print(f"Total Question Images Saved: {total_all_q_imgs}")
+    print(f"Total Solution Images Saved: {total_all_sol_imgs}")
+    print(f"==========================================")
 
-# Save full mcq_data.json
-with open('mcq_data.json', 'w', encoding='utf-8') as f:
-    json.dump(all_data, f, ensure_ascii=False, indent=2)
+    # Save full mcq_data.json
+    with open('mcq_data.json', 'w', encoding='utf-8') as f:
+        json.dump(all_data, f, ensure_ascii=False, indent=2)
 
-print(f"Saved mcq_data.json ({os.path.getsize('mcq_data.json')} bytes)")
+    print(f"Saved mcq_data.json ({os.path.getsize('mcq_data.json')} bytes)")
 
-# Curated set: ensure inclusion of image-based questions!
-curated = {}
-for subj, info in all_data.items():
-    mcqs = info['mcqs']
-    # Filter with valid answers & explanations
-    with_ans = [q for q in mcqs if q['answer'] and q['explanation']]
-    
-    # Priority: ensure image-based questions are in curated!
-    ibq_questions = [q for q in with_ans if 'images' in q]
-    non_ibq = [q for q in with_ans if 'images' not in q]
-    
-    # Select up to 15 IBQ questions + 35 diverse non-IBQ questions
-    selected_ibq = ibq_questions[:15]
-    remaining_needed = 50 - len(selected_ibq)
-    
-    step = max(1, len(non_ibq) // remaining_needed) if remaining_needed > 0 and len(non_ibq) > remaining_needed else 1
-    selected_non_ibq = non_ibq[::step][:remaining_needed]
-    
-    combined = selected_ibq + selected_non_ibq
-    curated[subj] = {
-        'total': len(mcqs),
-        'selected_count': len(combined),
-        'ibq_count': len([q for q in combined if 'images' in q]),
-        'mcqs': combined
-    }
+    # Curated set: ensure inclusion of image-based questions!
+    curated = {}
+    for subj, info in all_data.items():
+        mcqs = info['mcqs']
+        # Filter with valid answers & explanations
+        with_ans = [q for q in mcqs if q['answer'] and q['explanation']]
+        
+        # Priority: ensure image-based questions are in curated!
+        ibq_questions = [q for q in with_ans if 'images' in q]
+        non_ibq = [q for q in with_ans if 'images' not in q]
+        
+        # Select up to 15 IBQ questions + 35 diverse non-IBQ questions
+        selected_ibq = ibq_questions[:15]
+        remaining_needed = 50 - len(selected_ibq)
+        
+        step = max(1, len(non_ibq) // remaining_needed) if remaining_needed > 0 and len(non_ibq) > remaining_needed else 1
+        selected_non_ibq = non_ibq[::step][:remaining_needed]
+        
+        combined = selected_ibq + selected_non_ibq
+        curated[subj] = {
+            'total': len(mcqs),
+            'selected_count': len(combined),
+            'ibq_count': len([q for q in combined if 'images' in q]),
+            'mcqs': combined
+        }
 
-with open('mcq_curated.json', 'w', encoding='utf-8') as f:
-    json.dump(curated, f, ensure_ascii=False, indent=2)
+    with open('mcq_curated.json', 'w', encoding='utf-8') as f:
+        json.dump(curated, f, ensure_ascii=False, indent=2)
 
-print(f"Saved mcq_curated.json ({os.path.getsize('mcq_curated.json')} bytes)")
+    print(f"Saved mcq_curated.json ({os.path.getsize('mcq_curated.json')} bytes)")
+

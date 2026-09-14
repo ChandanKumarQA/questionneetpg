@@ -1467,9 +1467,9 @@ html_content = f'''<!DOCTYPE html>
           <!-- Question Count Selector -->
           <div class="pill-group" id="countSelector">
             <div class="pill-opt" onclick="setQuestionCount(15)">15 Qs</div>
-            <div class="pill-opt active" onclick="setQuestionCount(30)">30 Qs</div>
+            <div class="pill-opt" onclick="setQuestionCount(30)">30 Qs</div>
             <div class="pill-opt" onclick="setQuestionCount(50)">50 Qs</div>
-            <div class="pill-opt" onclick="setQuestionCount(999)">All Qs</div>
+            <div class="pill-opt active" onclick="setQuestionCount(999)">All Qs</div>
           </div>
         </div>
       </div>
@@ -1495,6 +1495,12 @@ html_content = f'''<!DOCTYPE html>
             <select class="chapter-dropdown" id="chapterDropdown" onchange="onChapterChange(event)">
               <option value="all">📚 All Chapters</option>
             </select>
+          </div>
+          <div class="pill-group" id="quizCountPills" style="margin-left: 4px;">
+            <div class="pill-opt active" id="pillQuizAll" onclick="setQuizLimit(999)">All</div>
+            <div class="pill-opt" id="pillQuiz15" onclick="setQuizLimit(15)">15</div>
+            <div class="pill-opt" id="pillQuiz30" onclick="setQuizLimit(30)">30</div>
+            <div class="pill-opt" id="pillQuiz50" onclick="setQuizLimit(50)">50</div>
           </div>
           <span class="badge-pill" id="quizModeBadge">Practice Mode</span>
         </div>
@@ -1715,7 +1721,7 @@ html_content = f'''<!DOCTYPE html>
 
     // App State
     let currentMode = 'practice'; // 'practice' or 'exam'
-    let questionLimit = 30;
+    let questionLimit = 999;
     let currentQuestions = [];
     let currentIndex = 0;
     let userAnswers = {{}}; // index -> chosen option 'a','b','c','d'
@@ -1842,6 +1848,41 @@ html_content = f'''<!DOCTYPE html>
       questionLimit = count;
       document.querySelectorAll('#countSelector .pill-opt').forEach(el => el.classList.remove('active'));
       event.target.classList.add('active');
+      syncQuizPills(count);
+    }}
+
+    function setQuizLimit(count) {{
+      questionLimit = count;
+      syncQuizPills(count);
+      syncHomePills(count);
+      const headerDD = document.getElementById('chapterDropdown');
+      const val = headerDD ? headerDD.value : 'all';
+      applyChapterFilter(val);
+      currentIndex = 0;
+      userAnswers = {{}};
+      renderPalette();
+      loadQuestion(0);
+      showToast(`Question count set to ${{count === 999 ? 'All' : count}} (${{currentQuestions.length}} Qs loaded)`, '⚡');
+    }}
+
+    function syncQuizPills(count) {{
+      document.querySelectorAll('#quizCountPills .pill-opt').forEach(el => el.classList.remove('active'));
+      if (count === 999) {{
+        const p = document.getElementById('pillQuizAll');
+        if (p) p.classList.add('active');
+      }} else {{
+        const p = document.getElementById(`pillQuiz${{count}}`);
+        if (p) p.classList.add('active');
+      }}
+    }}
+
+    function syncHomePills(count) {{
+      document.querySelectorAll('#countSelector .pill-opt').forEach(el => el.classList.remove('active'));
+      const homePills = document.querySelectorAll('#countSelector .pill-opt');
+      if (count === 15 && homePills[0]) homePills[0].classList.add('active');
+      else if (count === 30 && homePills[1]) homePills[1].classList.add('active');
+      else if (count === 50 && homePills[2]) homePills[2].classList.add('active');
+      else if (count === 999 && homePills[3]) homePills[3].classList.add('active');
     }}
 
     let currentSubjectName = '';
@@ -1893,6 +1934,8 @@ html_content = f'''<!DOCTYPE html>
 
       const qTxt = document.getElementById('qChapterText');
       if (qTxt) qTxt.style.display = 'none';
+      const pills = document.getElementById('quizCountPills');
+      if (pills) pills.style.display = 'flex';
 
       applyChapterFilter('all');
       initQuizUI(subjectName, `${{subj.icon}} ${{subjectName}}`);
@@ -1920,29 +1963,38 @@ html_content = f'''<!DOCTYPE html>
       userAnswers = {{}};
       renderPalette();
       loadQuestion(0);
-      showToast(val === 'all' ? `All chapters loaded (${{currentQuestions.length}} Qs)` : `Chapter filtered (${{currentQuestions.length}} Qs)`, '📖');
+      showToast(val === 'all' ? `All chapters loaded (${{currentQuestions.length}} Qs)` : `Chapter loaded (${{currentQuestions.length}} Qs)`, '📖');
     }}
 
     function applyChapterFilter(chapterVal) {{
       let pool;
       if (chapterVal === 'all') {{
         pool = [...currentSubjectPool];
+        if (questionLimit !== 999) {{
+          shuffleArray(pool);
+          pool = pool.slice(0, Math.min(questionLimit, pool.length));
+        }}
+        currentQuestions = pool;
       }} else {{
         const chNum = parseInt(chapterVal);
         pool = currentSubjectPool.filter(q => q.chapter_num === chNum);
+        pool.sort((a, b) => (a.q_num || 0) - (b.q_num || 0));
+        if (questionLimit !== 999) {{
+          pool = pool.slice(0, Math.min(questionLimit, pool.length));
+        }}
+        currentQuestions = pool;
       }}
-      shuffleArray(pool);
-      const limit = questionLimit === 999 ? pool.length : Math.min(questionLimit, pool.length);
-      currentQuestions = pool.slice(0, limit);
     }}
 
     function hideChapterDropdowns() {{
       const headerDD = document.getElementById('chapterDropdown');
       const questionDD = document.getElementById('qChapterDropdown');
       const qTxt = document.getElementById('qChapterText');
+      const pills = document.getElementById('quizCountPills');
       if (headerDD) headerDD.style.display = 'none';
       if (questionDD) questionDD.style.display = 'none';
       if (qTxt) qTxt.style.display = 'inline';
+      if (pills) pills.style.display = 'none';
     }}
 
     function startGrandMock(count) {{
