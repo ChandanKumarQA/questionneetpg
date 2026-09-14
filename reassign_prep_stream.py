@@ -122,7 +122,11 @@ def save_image_robust(xo, out_path):
 
         # Fallback to PIL Image.open
         im = Image.open(io.BytesIO(data))
-        if im.mode != 'RGB':
+        if im.mode in ('RGBA', 'LA') or (im.mode == 'P' and 'transparency' in im.info):
+            bg = Image.new('RGB', im.size, (255, 255, 255))
+            bg.paste(im, (0, 0), im.convert('RGBA'))
+            im = bg
+        elif im.mode != 'RGB':
             im = im.convert('RGB')
         im.save(out_path, 'JPEG', quality=90)
         return True

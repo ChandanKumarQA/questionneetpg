@@ -183,7 +183,11 @@ def save_image_object(xo, out_path):
 
         # Fallback to PIL Image.open
         im = Image.open(io.BytesIO(data))
-        if im.mode != 'RGB':
+        if im.mode in ('RGBA', 'LA') or (im.mode == 'P' and 'transparency' in im.info):
+            bg = Image.new('RGB', im.size, (255, 255, 255))
+            bg.paste(im, (0, 0), im.convert('RGBA'))
+            im = bg
+        elif im.mode != 'RGB':
             im = im.convert('RGB')
         im.save(out_path, 'JPEG', quality=90)
         return True
@@ -212,7 +216,7 @@ def extract_subject(pdf_file):
     total_q_imgs = 0
     total_sol_imgs = 0
     
-    token_pat = re.compile(r'/(Im[1-9]\d*)\s+Do|(Question\s+\d+\s*:)|(Solution\s+to\s+Question\s*\d+\s*:)|(Answer\s+Key)')
+    token_pat = re.compile(r'/(Im\d+)\s+Do|(Question\s+\d+\s*:)|(Solution\s+to\s+Question\s*\d+\s*:)|(Answer\s+Key)')
     
     for idx, (ch_num, ch_title, start_pg) in enumerate(chapters):
         end_pg = chapters[idx+1][2] if idx + 1 < len(chapters) else total_pages + 1

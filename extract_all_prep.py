@@ -66,7 +66,7 @@ def clean_watermarks(t):
     t = re.sub(r'Page\s+\d+\s+of\s+\d+', '', t, flags=re.I)
     t = re.sub(r'\{\{caption_text\}\}', '', t)
     t = t.replace('\x7f', ' ')
-    return " ".join(t.split())
+    return "\n".join([line.strip() for line in t.split('\n') if line.strip()])
 
 def parse_toc(reader):
     toc_lines = []
@@ -113,7 +113,11 @@ def save_image_file(img_obj, out_path):
             f.write(data)
         try:
             im = Image.open(out_path)
-            if im.mode == 'CMYK':
+            if im.mode in ('RGBA', 'LA') or (im.mode == 'P' and 'transparency' in im.info):
+                bg = Image.new('RGB', im.size, (255, 255, 255))
+                bg.paste(im, (0, 0), im.convert('RGBA'))
+                bg.save(out_path, 'JPEG', quality=85)
+            elif im.mode != 'RGB':
                 im = im.convert('RGB')
                 im.save(out_path, 'JPEG', quality=85)
         except Exception:
