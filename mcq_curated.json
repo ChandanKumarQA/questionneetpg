@@ -10,7 +10,7 @@
         "chapter_num": 1,
         "chapter": "History and Ethical Aspects of Anaesthesia",
         "q_num": 1,
-        "question": "On a historical day, performing surgeries without the torture of pain was demonstrated successfully for the first time at Massachusetts General Hospital, the home of Harvard Medical School. This is celebrated as the 'World Anesthesia Day' every year on which day?",
+        "question": "On a historical day,\nperforming surgeries without the torture of pain was demonstrated\nsuccessfully for the first time at Massachusetts General Hospital,\nthe home of Harvard\nMedical School.\nThis is celebrated as the 'World Anesthesia Day'\nevery year on which day?",
         "options": {
           "a": "December 1st",
           "b": "April 7th",
@@ -30,7 +30,7 @@
         "chapter_num": 1,
         "chapter": "History and Ethical Aspects of Anaesthesia",
         "q_num": 2,
-        "question": "You are assisting your senior resident who is performing the procedure shown in the image. He engages you with some historical trivia and asks you who perfor med t his procedure first. What would your answer be?",
+        "question": "You are assisting your senior resident who is performing the procedure shown in the image.\nHe engages you with some historical trivia and asks you who perfor\nmed t\nhis procedure first.\nWhat\nwould your answer be?",
         "options": {
           "a": "John Lundy",
           "b": "August Bier",
@@ -52,7 +52,7 @@
         "chapter_num": 1,
         "chapter": "History and Ethical Aspects of Anaesthesia",
         "q_num": 3,
-        "question": "The prototype of the device shown in the image below was originally named after which personality?",
+        "question": "The prototype of the device shown in the image below was originally named after which\npersonality?",
         "options": {
           "a": "John Lundy",
           "b": "Carl Koller",
@@ -72,7 +72,7 @@
         "chapter_num": 1,
         "chapter": "History and Ethical Aspects of Anaesthesia",
         "q_num": 4,
-        "question": "The term \"balanced anaesthesia\" was coined by the same person who lobbied in 1939 to get anaesthesia recognized as a speciality by the American Medical Association. Who is this individual?",
+        "question": "The term \"balanced anaesthesia\"\nwas coined by the same person who lobbied in 1939 to get\nanaesthesia recognized as a speciality by the American Medical Association.\nWho is this\nindividual?",
         "options": {
           "a": "John Lundy",
           "b": "James Simpson",
@@ -90,7 +90,7 @@
         "chapter_num": 1,
         "chapter": "History and Ethical Aspects of Anaesthesia",
         "q_num": 5,
-        "question": "Why is October 16, 1846, important in the history of anaesthesia?",
+        "question": "Why is October 16,\n1846,\nimportant in the history of anaesthesia?",
         "options": {
           "a": "Demonstration of ether anesthesia",
           "b": "Demonstration of nitrous oxide as anesthetic",
@@ -128,11 +128,11 @@
         "chapter_num": 1,
         "chapter": "History and Ethical Aspects of Anaesthesia",
         "q_num": 7,
-        "question": "In 1884, a paper on the local anaesthetic action of cocaine in ophthalmic surgery was published and was lauded by ophthalmologists all over the world. Who proposed it?",
+        "question": "In 1884,\na paper on the local anaesthetic action of cocaine in ophthalmic surgery was\npublished and was lauded by ophthalmologists all over the world.\nWho proposed it?",
         "options": {
           "a": "Carl Koller",
           "b": "Joseph Priestley",
-          "c": "H umphry Davy",
+          "c": "H\numphry\nDavy",
           "d": "William Morton"
         },
         "answer": "a",
@@ -203,7 +203,7 @@
         "chapter_num": 2,
         "chapter": "Preoperative Evaluation",
         "q_num": 1,
-        "question": "A 50-year-old man with well controlled hypertension has been scheduled for surgery. What is his ASA-PS classification?",
+        "question": "A 50-year-old man with well controlled hypertension has been scheduled for surgery.\nWhat is\nhis ASA-PS classification?",
         "options": {
           "a": "ASA-PS Class I",
           "b": "ASA-PS Class II",
@@ -221,7 +221,7 @@
         "chapter_num": 2,
         "chapter": "Preoperative Evaluation",
         "q_num": 2,
-        "question": "A known diabetic with an HbA1c value of 9% should be classified under which ASA-PS classification?",
+        "question": "A known diabetic with an HbA1c value of 9%\nshould be classified under which ASA-PS\nclassification?",
         "options": {
           "a": "ASA",
           "b": "ASA",
@@ -244,7 +244,7 @@
           "a": "Thyromental distance",
           "b": "ASA-PS classification",
           "c": "Cormack-Lehane classification",
-          "d": "N eck circumference"
+          "d": "N\neck\ncircumference"
         },
         "answer": "b",
         "explanation": "ASA-PS classification is used to quantify patient risk for anesthesia and not for assessment of the airway.",
@@ -257,11 +257,11 @@
         "chapter_num": 2,
         "chapter": "Preoperative Evaluation",
         "q_num": 4,
-        "question": "Which of the following features in a patient would prompt you to anticipate a difficult intubation?",
+        "question": "Which of the following features in a patient would prompt you to anticipate a difficult\nintubation?",
         "options": {
           "a": "1 and",
-          "b": "1, 3 and",
-          "c": "2, 3 and",
+          "b": "1,\n3 and",
+          "c": "2,\n3 and",
           "d": "5 only"
         },
         "answer": "b",
@@ -275,7 +275,7 @@
         "chapter_num": 2,
         "chapter": "Preoperative Evaluation",
         "q_num": 5,
-        "question": "Which of the following statements is true regarding the American Society of Anaesthesiologists - Physical Status (ASA-PS) classification?",
+        "question": "Which of the following statements is true regarding the American Society of\nAnaesthesiologists - Physical Status (ASA-PS)\nclassification?",
         "options": {
           "a": "It is used to assess difficulty in intubation",
           "b": "Brain dead patients come under ASA class V",
@@ -300,12 +300,12 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 1,
-        "question": "What are the site and the timing of the origin of the primordial germ cells ?",
+        "question": "What are the site and the timing of the origin of the primordial germ cells\n?",
         "options": {
-          "a": "Gonads, 4th week of embryonic development",
-          "b": "Epiblast , 2nd week of embryonic development",
-          "c": "Gonads, 2nd month of embryonic development",
-          "d": "Yolk sac, 4th week of embryonic development"
+          "a": "Gonads,\n4th week of embryonic development",
+          "b": "Epiblast\n,\n2nd week of embryonic development",
+          "c": "Gonads,\n2nd month of embryonic development",
+          "d": "Yolk sac,\n4th week of embryonic development"
         },
         "answer": "b",
         "explanation": "Primordial germ cells originate in the epiblast , during the 2nd week of development . Primordial germ cells (PGCs) are also known as primitive sex cells . During the 2nd week of development , they originate in the epiblast at the caudal end of the primitive streak. They are the precursors of gametes in both genders . They pass through the primitive streak during gastrulation and reach the wall of the yolk sac. They migrate from the yolk sac in the 4th week and reach the developing gonads by the end of the 5th week .",
@@ -318,12 +318,12 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 2,
-        "question": "What is the correct sequence of stem cell potency based on their ability to differentiate ?",
+        "question": "What is the correct sequence of stem cell potency based on their ability to differentiate\n?",
         "options": {
-          "a": "Pluripotent &gt;Totipotent &gt; Multipotent &gt; Oligopotent &gt; Unipotent",
-          "b": "Totipotent &gt; Pluripotent &gt; Multipotent &gt; Oligopotent &gt; Unipotent",
-          "c": "Totipotent &gt; Pluripotent &gt; Oligopotent &gt; Multipotent &gt;Unipotent",
-          "d": "Pluripotent &gt;Totipotent &gt; Oligopotent &gt; Multipotent &gt; Unipotent"
+          "a": "Pluripotent\n&gt;Totipotent\n&gt;\nMultipotent\n&gt;\nOligopotent\n&gt;\nUnipotent",
+          "b": "Totipotent\n&gt;\nPluripotent\n&gt;\nMultipotent\n&gt;\nOligopotent\n&gt;\nUnipotent",
+          "c": "Totipotent\n&gt;\nPluripotent\n&gt;\nOligopotent\n&gt;\nMultipotent\n&gt;Unipotent",
+          "d": "Pluripotent\n&gt;Totipotent\n&gt;\nOligopotent\n&gt;\nMultipotent\n&gt;\nUnipotent"
         },
         "answer": "b",
         "explanation": "The correct order of arrangement of stem cells , based on their potency to differentiate into different cells (highest to lowest ) is totipotent &gt; pluripotent &gt; multipotent &gt; oligopotent &gt; unipotent .10",
@@ -336,7 +336,7 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 3,
-        "question": "What is a part of the embryo that exerts morphogenetic stimulus on its adjacent part called ?",
+        "question": "What is a part of the embryo that exerts morphogenetic stimulus on its adjacent part called\n?",
         "options": {
           "a": "Differentiator",
           "b": "Organizer",
@@ -354,7 +354,7 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 4,
-        "question": "During which phase of meiotic division are leptotene and zygotene stages seen ?",
+        "question": "During which phase of meiotic division are leptotene and zygotene stages seen\n?",
         "options": {
           "a": "Metaphase",
           "b": "Prophase",
@@ -372,12 +372,12 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 5,
-        "question": "Which of the following represents the embryonic period of development ?",
+        "question": "Which of the following represents the embryonic period of development\n?",
         "options": {
           "a": "0-2 weeks",
           "b": "3-8 weeks",
           "c": "8-10 weeks",
-          "d": "10 -12 weeks"
+          "d": "10\n-12 weeks"
         },
         "answer": "b",
         "explanation": "The embryonic period extends from the 3rd week of intrauterine life to the 8th week of intrauterine life . The prenatal period is divided into 3 different stages :11 Stages of prenatal developme nt Important events of each stag e Pre-embryonic period (First 2 weeks ) FertilizationCleavage and bla stocyst formationImplantatio nFormation of embryoblast a nd trophoblastDifferentiation of embryoblast totwo -layere d (bilaminar ) germ discDiffer entiation of trophoblast into cytotrophoblast and syncytiot rophoblast Embryonic period (3-8 weeks ) Trilaminar germ discformati on with the formation of 3 ge rm layersEarly organogenesis Formation of extraembryonic supportive organs and mem branes such as placenta , umb ilical cord, amnion , and allan tois Fetal period (9 weeks to birth) Growth and specialization of body structures",
@@ -428,7 +428,7 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 8,
-        "question": "Which of the following cells remain dormant in the testis until puberty ?",
+        "question": "Which of the following cells remain dormant in the testis until puberty\n?",
         "options": {
           "a": "Primordial germ cells",
           "b": "Primary spermatocytes",
@@ -466,7 +466,7 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 10,
-        "question": "Which stage of spermatogenesis is characterized by an independent assortment of maternal and paternal chromosomes?",
+        "question": "Which stage of spermatogenesis is characterized by an independent assortment of maternal\nand paternal chromosomes?",
         "options": {
           "a": "Spermatogonia to primary spermatocyte",
           "b": "Primary spermatocyte to secondary spermatocyte",
@@ -484,7 +484,7 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 11,
-        "question": "Which of the following transformations is seen in spermiogenesis ?",
+        "question": "Which of the following transformations is seen in spermiogenesis\n?",
         "options": {
           "a": "Primordial germ cells to spermatogonia",
           "b": "Spermatogonia to primary spermatocytes",
@@ -558,7 +558,7 @@
         "chapter_num": 1,
         "chapter": "Gametogenesis",
         "q_num": 15,
-        "question": "You reassured the parents after you noted cryptorchidism in a premature baby. Which of the following cells are responsible for secreting the hormone responsible for its normal descent?",
+        "question": "You reassured the parents after you noted cryptorchidism in a premature baby.\nWhich of the\nfollowing cells are responsible for secreting the hormone responsible for its normal descent?",
         "options": {
           "a": "Primordial germ cells",
           "b": "Spermatogenic cells",
@@ -642,7 +642,7 @@
         "question": "Which among the following is an example of epimers?",
         "options": {
           "a": "D-glucose and L-glucose",
-          "b": "D- glucose and D- mannose",
+          "b": "D-\nglucose and D-\nmannose",
           "c": "D-glucose and D-fructose",
           "d": "D-fructose and D-talose"
         },
@@ -661,10 +661,10 @@
         "q_num": 5,
         "question": "Which type of bond is there at the branching points in the structure of glycogen?",
         "options": {
-          "a": "\\0371 \u0000o 4 glucosidic bond",
-          "b": "\\0371 \u0000o 6 glucosidic bond",
-          "c": "\\0371 \u0000o 1 glucosidic bond",
-          "d": "\\0371 \u0000o 2 glucosidic bond"
+          "a": "\\0371\n\u0000o\n4 glucosidic bond",
+          "b": "\\0371\n\u0000o\n6 glucosidic bond",
+          "c": "\\0371\n\u0000o\n1 glucosidic bond",
+          "d": "\\0371\n\u0000o\n2 glucosidic bond"
         },
         "answer": "b",
         "explanation": "Branching points in the glycogen structure have \\0371 \u0000o 6 glucosidic bonds.12 Glycogen is the storage polysaccharide in animals. It consists of \\037-D glucopyranose residues in \\0371 \u0000o 4 glucosidic linkage in straight chains and branching by means of \\0371 \u0000o 6 glucosidic bonds.",
@@ -695,10 +695,10 @@
         "chapter_num": 1,
         "chapter": "Chemistry of Carbohydrates, Amino sugars and Mu...",
         "q_num": 7,
-        "question": "You want to assess glucose in the urine of a patient with diabetes. Which of the following tests/methods cannot be used to detect the same?",
+        "question": "You want to assess glucose in the urine of a patient with diabetes.\nWhich of the following\ntests/methods cannot be used to detect the same?",
         "options": {
           "a": "Nelson Somogyi method",
-          "b": "Ferric chloride test",
+          "b": "Ferric\nchloride test",
           "c": "O-Toluidine method",
           "d": "Folin and Wu method"
         },
@@ -713,7 +713,7 @@
         "chapter_num": 1,
         "chapter": "Chemistry of Carbohydrates, Amino sugars and Mu...",
         "q_num": 8,
-        "question": "Which of the following compounds in a patient's urine will not give a positive reaction to\\037 Benedict's test?",
+        "question": "Which of the following compounds in a patient's urine will not give a positive reaction to\\037\nBenedict's test?",
         "options": {
           "a": "Ascorbic acid",
           "b": "Homogentisic acid",
@@ -751,7 +751,7 @@
         "chapter_num": 1,
         "chapter": "Chemistry of Carbohydrates, Amino sugars and Mu...",
         "q_num": 10,
-        "question": "Which of the following tests can be used to estimate the liver function in a patient with chronic liver disease?",
+        "question": "Which of the following tests can be used to estimate the liver function in a patient with\nchronic liver disease?",
         "options": {
           "a": "Glucose Tolerance Test",
           "b": "Fructose Tolerance Test",
@@ -773,8 +773,8 @@
         "options": {
           "a": "Hurler's disease",
           "b": "Hunter's disease",
-          "c": "Sanfilippo d isease",
-          "d": "Sly syndrome"
+          "c": "Sanfilippo d\nisease",
+          "d": "Sly\nsyndrome"
         },
         "answer": "c",
         "explanation": "The most common mucopolysaccharidosis (MPS) is Sanfilippo disease (MPS III), followed by Hurler's disease and Hunter's disease. Sanfilippo disease makes up a genetically heterogeneous but clinically similar group of 4 recognized types. It is due to the deficiency of enzymes involved in the degradation of heparan sulfate. The onset of symptoms occurs between 2 and 6 years of age. It is c haracterized by severe CNS involvement with a mild somatic involvement. Disproportionate involvement of CNS is a unique feature of MPS III. Other features include sleep disturbances, aggressive behavior problems, and hirsutism.",
@@ -787,7 +787,7 @@
         "chapter_num": 1,
         "chapter": "Chemistry of Carbohydrates, Amino sugars and Mu...",
         "q_num": 12,
-        "question": "A patient with deafness and mental retardation is found to have an excess accumulation of glycosaminoglycans in his body. After a detailed evaluation, he is diagnosed with Hunter disease. What is the site of synthesis of these accumulated substances?",
+        "question": "A patient with deafness and mental retardation is found to have an excess accumulation of\nglycosaminoglycans in his body.\nAfter a detailed evaluation,\nhe is diagnosed with Hunter\ndisease.\nWhat is the site of synthesis of these accumulated substances?",
         "options": {
           "a": "Mitochondria and Golgi apparatus",
           "b": "Endoplasmic reticulum and Golgi apparatus",
@@ -826,7 +826,7 @@
         "question": "Which of the following mucopolysaccharides does not contain uronic acid?",
         "options": {
           "a": "Chondroitin sulfate",
-          "b": "Hyaluronic acid",
+          "b": "Hyaluronic\nacid",
           "c": "Keratan sulfate",
           "d": "Dermatan sulfate"
         },
@@ -841,7 +841,7 @@
         "chapter_num": 1,
         "chapter": "Chemistry of Carbohydrates, Amino sugars and Mu...",
         "q_num": 15,
-        "question": "In a patient presenting with corneal opacity, deficiency of which of the following could be a likely cause?",
+        "question": "In a patient presenting with corneal opacity,\ndeficiency of which of the following could be a\nlikely cause?",
         "options": {
           "a": "Keratan sulfate",
           "b": "Hyaluronic acid",
@@ -886,7 +886,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 2,
-        "question": "Which layer of the epidermis is underdeveloped in the very low birth weight infants in the initial 7 days?",
+        "question": "Which layer of the epidermis is underdeveloped in the very low birth weight infants in the\ninitial 7 days?",
         "options": {
           "a": "Stratum germinativum",
           "b": "Stratum granulosum",
@@ -904,7 +904,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 3,
-        "question": "Choose the correctly labelled layer of the epidermis from the image given below .",
+        "question": "Choose the correctly labelled layer of the epidermis from the image given below\n.",
         "options": {
           "a": "1 - stratum spinosum",
           "b": "2 - stratum granulosum",
@@ -928,7 +928,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 4,
-        "question": "A patient presents with complaints of dry skin and lesions as shown. The epidermal protein deficient in this patient is present in:",
+        "question": "A patient presents with complaints of dry skin and lesions as shown.\nThe epidermal protein\ndeficient in this patient is present in:",
         "options": {
           "a": "Stratum corneum",
           "b": "Stratum granulosum",
@@ -950,7 +950,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 5,
-        "question": "Which of the following are included in malpighian layer of the epidermis ?",
+        "question": "Which of the following are included in malpighian layer of the epidermis\n?",
         "options": {
           "a": "Stratum corneum and stratum granulosum",
           "b": "Stratum granulosum and stratum spinosum",
@@ -970,7 +970,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 6,
-        "question": "Which of the following terms is used to describe the skin with all its appendages ?",
+        "question": "Which of the following terms is used to describe the skin with all its appendages\n?",
         "options": {
           "a": "Pilosebaceous unit",
           "b": "Malpighian system",
@@ -988,7 +988,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 7,
-        "question": "Where are granules of Eleidin seen ?",
+        "question": "Where are granules of Eleidin seen\n?",
         "options": {
           "a": "Stratum corneum",
           "b": "Stratum lucidum",
@@ -1008,9 +1008,9 @@
         "q_num": 8,
         "question": "Choose the incorrect statement regarding skin.",
         "options": {
-          "a": "Langerhans cells are dendritic cells which originate from bone marrow .",
+          "a": "Langerhans cells are dendritic cells which originate from bone marrow\n.",
           "b": "Melanocytes are present in stratum basale.",
-          "c": "Stratified squamous epithelium with hallmark keratin filaments .",
+          "c": "Stratified squamous epithelium with hallmark keratin filaments\n.",
           "d": "Stratum lucidum is present between stratum spinosum and granulosum."
         },
         "answer": "d",
@@ -1026,7 +1026,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 9,
-        "question": "Which of the following layers of the skin predominantly contains non-nucleated cells ?",
+        "question": "Which of the following layers of the skin predominantly contains non-nucleated cells\n?",
         "options": {
           "a": "Stratum lucidum",
           "b": "Stratum basale",
@@ -1044,7 +1044,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 10,
-        "question": "Where are Odland bodies present ?",
+        "question": "Where are Odland bodies present\n?",
         "options": {
           "a": "Stratum corneum",
           "b": "Stratum lucidum",
@@ -1092,7 +1092,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 12,
-        "question": "Which of the following cells act as slow -adapting touch receptors ?",
+        "question": "Which of the following cells act as slow\n-adapting touch receptors\n?",
         "options": {
           "a": "Meissner corpuscle",
           "b": "Pacinian corpuscle",
@@ -1112,7 +1112,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 13,
-        "question": "What is the location of Meissner 's corpuscle in the skin?",
+        "question": "What is the location of Meissner\n's corpuscle in the skin?",
         "options": {
           "a": "Stratum lucidum",
           "b": "Stratum basale",
@@ -1132,7 +1132,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 14,
-        "question": "Which of the following are connected by desmosomes ?",
+        "question": "Which of the following are connected by desmosomes\n?",
         "options": {
           "a": "Keratinocytes",
           "b": "Melanocytes",
@@ -1150,7 +1150,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy & Physiology of Skin",
         "q_num": 15,
-        "question": "A patient presents with multiple blisters on the skin and oral mucosa. The immunofluorescence staining for IgG shows the following characteristic pattern. Which of the following is targeted by the immune system in this condition?",
+        "question": "A patient presents with multiple blisters on the skin and oral mucosa.\nThe\nimmunofluorescence staining for IgG shows the following characteristic pattern.\nWhich of the\nfollowing is targeted by the immune system in this condition?",
         "options": {
           "a": "Keratinocytes",
           "b": "Melanocytes",
@@ -1197,7 +1197,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 2,
-        "question": "A patient is incidentally noted to have the following finding. It is also present on the other ear. Which of the following is the cause for such abnormality?",
+        "question": "A patient is incidentally noted to have the following finding.\nIt is also present on the other\near.\nWhich of the following is the cause for such abnormality?",
         "options": {
           "a": "Persistent opening of first branchial cleft",
           "b": "Improper fusion of auricular tubercle",
@@ -1217,7 +1217,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 3,
-        "question": "When are reconstructive surgeries for congenital malformations of pinna usually performed ?",
+        "question": "When are reconstructive surgeries for congenital malformations of pinna usually performed\n?",
         "options": {
           "a": "Soon after birth",
           "b": "Within 1 year of age",
@@ -1235,7 +1235,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 4,
-        "question": "Invagination of which of the following structures will form the external auditory meatus ?",
+        "question": "Invagination of which of the following structures will form the external auditory meatus\n?",
         "options": {
           "a": "First pharyngeal arch",
           "b": "First pharyngeal pouch",
@@ -1253,7 +1253,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 5,
-        "question": "Examination of a child with otorrhea revealed two discharging sinuses . One was present on the floor of the left external auditory canal and the other on the left neck just below the angle of the mandible. Which of the following structures is abnormal here?",
+        "question": "Examination of a child with otorrhea revealed two discharging sinuses\n.\nOne was present on\nthe floor of the left external auditory canal and the other on the left neck just below the angle\nof the mandible.\nWhich of the following structures is abnormal here?",
         "options": {
           "a": "First branchial cleft",
           "b": "First branchial pouch",
@@ -1289,7 +1289,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 7,
-        "question": "Which of the structures given below forms the eustachian tube ?",
+        "question": "Which of the structures given below forms the eustachian tube\n?",
         "options": {
           "a": "1st pharyngeal pouch",
           "b": "1st and 2nd pharyngeal cleft",
@@ -1325,7 +1325,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 9,
-        "question": "Which of the following arches gives rise to the stapes ?",
+        "question": "Which of the following arches gives rise to the stapes\n?",
         "options": {
           "a": "First arch",
           "b": "Second arch",
@@ -1379,7 +1379,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 12,
-        "question": "An ENT surgeon has difficulty locating the mastoid antrum due to the presence of Korner's septum . Which of the following sutures is persistent in this case?",
+        "question": "An ENT surgeon has difficulty locating the mastoid antrum due to the presence of Korner's\nseptum\n.\nWhich of the following sutures is persistent in this case?",
         "options": {
           "a": "Frontozygomatic suture",
           "b": "Petrosquamous suture",
@@ -1399,7 +1399,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 13,
-        "question": "From which of the following structure does the saccule develop ?",
+        "question": "From which of the following structure does the saccule develop\n?",
         "options": {
           "a": "Saculus anterior",
           "b": "Saculus posterior",
@@ -1417,7 +1417,7 @@
         "chapter_num": 1,
         "chapter": "Embryology of Ear and Malformations",
         "q_num": 14,
-        "question": "From how many ossification centre (s) does the inner ear develop ?",
+        "question": "From how many ossification centre\n(s)\ndoes the inner ear develop\n?",
         "options": {
           "a": "",
           "b": "",
@@ -1460,7 +1460,7 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 1,
-        "question": "A victim of child trafficking was brought to you by the police for age determination. Which of the following would you use as an accurate method for determining the same?",
+        "question": "A victim of child trafficking was brought to you by the police for age determination.\nWhich of\nthe following would you use as an accurate method for determining the same?",
         "options": {
           "a": "Distal epiphysis of femur",
           "b": "Mineralization of teeth",
@@ -1496,7 +1496,7 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 3,
-        "question": "Which o f the following is a superadded permanent tooth?",
+        "question": "Which o\nf the following is a superadded permanent tooth?",
         "options": {
           "a": "Central incisors",
           "b": "Canine",
@@ -1516,7 +1516,7 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 4,
-        "question": "Electron microscopy of the surface of tooth enamel revealed a neonatal line. What is your inference?",
+        "question": "Electron microscopy of the surface of tooth enamel revealed a neonatal line.\nWhat is your\ninference?",
         "options": {
           "a": "Congenital malformation",
           "b": "Heavy metal poisoning",
@@ -1534,7 +1534,7 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 5,
-        "question": "A dentist evaluating a child's teeth notices the presence of mixed dentition. What would be the approximate age of the child?",
+        "question": "A dentist evaluating a child's teeth notices the presence of mixed dentition.\nWhat would be\nthe approximate age of the child?",
         "options": {
           "a": "2 – 5 years",
           "b": "6 – 12 years",
@@ -1552,12 +1552,12 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 6,
-        "question": "While examining the skeletal remains from a bomb blast, a forensic expert decides to use the Gustafson's method for identification of the ages of people killed. Which of the following would you not assess in this method?",
+        "question": "While examining the skeletal remains from a bomb blast,\na forensic expert decides to use the\nGustafson's method for identification of the ages of people killed.\nWhich of the following\nwould you not assess in this method?",
         "options": {
           "a": "Tooth length",
           "b": "Attrition changes of occlusal surface",
-          "c": "P eriodontosis",
-          "d": "Transparency of the root"
+          "c": "P\neriodontosis",
+          "d": "Transparency\nof the root"
         },
         "answer": "a",
         "explanation": "Tooth length is not assessed in Gustafson's method. Gustafson's method of estimation of age of an individual is based on physiological changes in teeth. It is mainly useful in adults over 25 years of age. Gustafson's criteria includes: • Attrition - wear and tear changes of occlusal surface • Periodontosis - regression of gums surrounding the tooth resulting in loosening of the tooth and falling • Secondary dentin - deposition of dentin in pulp cavity • Cementum appositi on - deposition o f cementum in the root forming incremental lines • Root resorption - involves both cementum and dentin • Transparency of the root - This is the most reliable criteria. Canals in dentin get filled with mineral and they become less transparent. Gustafson's method has now been largely replaced by Lamendin's method. Other methods of age determination based on teeth: • Lamendin's method - It evaluates root dentine translucency, periodontopathy, and tooth len gth • M iles ' method - Uses transparency of the root as a single criterion • Boyd's method - Determination of age of an infant by counting incremental lines on enamel • Stack's method - Determination of age by measuring dimensions of teeth • Variation in racemization of amino acids (especially aspartic acid) in dental pulp with age • Evaluating the reduction of the pulp chamber through X-rays",
@@ -1570,7 +1570,7 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 7,
-        "question": "Which of the following is the most reliable criterion for age determination from Gustafson's method?",
+        "question": "Which of the following is the most reliable criterion for age determination from Gustafson's\nmethod?",
         "options": {
           "a": "Periodontis",
           "b": "Root resorption",
@@ -1628,7 +1628,7 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 9,
-        "question": "You receive a dental report from an autopsy of a homicide case, stating that FDI notation tooth number '43' is missing. Which tooth is missing in the victim?",
+        "question": "You receive a dental report from an autopsy of a homicide case,\nstating that FDI notation\ntooth number '43'\nis missing.\nWhich tooth is missing in the victim?",
         "options": {
           "a": "Lower right canine",
           "b": "Lower left canine",
@@ -1666,12 +1666,12 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 11,
-        "question": "Match the following sutures with their correct a ge of fusion:",
+        "question": "Match the following sutures with their correct a\nge of fusion:",
         "options": {
-          "a": "1-a, 2-d, 3-b, 4-c",
-          "b": "1-b, 2-d, 3-a, 4-c",
-          "c": "1-c, 2-b, 3-a, 4-d",
-          "d": "1-b, 2-d, 3-c, 4-a"
+          "a": "1-a,\n2-d,\n3-b,\n4-c",
+          "b": "1-b,\n2-d,\n3-a,\n4-c",
+          "c": "1-c,\n2-b,\n3-a,\n4-d",
+          "d": "1-b,\n2-d,\n3-c,\n4-a"
         },
         "answer": "b",
         "explanation": "Age of fusion of skull sutures are: Ages of commencement and completion of fusion of the different skull sutures are given below:Suture Age of fusio n Metopic suture 2-4 years Spheno -occipital suture 18-25 years Posterior third of sagittal sut ure 30-40 years Anterior third of sagittal sutu re 40-50 years Middle third of sagittal sutur e 50-60 years Coronal suture 40-50 years Sphenotemporal suture 50-60 years Squamous temporal suture >80 yearsSuture Commencement (y ears) Halfway closed (years) Completion (year s) Spheno -occipital synchondro sis - - Coronal suture 30 Sagittal suture 30 Lambdoid suture 30 Masto -occipital suture 45 - Asterion - - 50",
@@ -1702,7 +1702,7 @@
         "chapter_num": 1,
         "chapter": "Skeletal and Dental Age Determination",
         "q_num": 13,
-        "question": "Which of the following is the most reliable method for estimation of age in adulthood (&gt;25 years)?",
+        "question": "Which of the following is the most reliable method for estimation of age in adulthood (&gt;25\nyears)?",
         "options": {
           "a": "Ectocranial fusion of skull sutures",
           "b": "Endocranial fusion of skull sutures",
@@ -1724,7 +1724,7 @@
         "options": {
           "a": "Distal femur",
           "b": "Talus",
-          "c": "Distal tibia",
+          "c": "Distal\ntibia",
           "d": "Calcaneus"
         },
         "answer": "c",
@@ -1763,7 +1763,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 1,
-        "question": "A soldier posted in Siachen is brought unconscious to the emergency ward. In order to rule out hypothermia , how will you best measure his temperature ?",
+        "question": "A soldier posted in Siachen is brought unconscious to the emergency ward.\nIn order to rule\nout hypothermia\n,\nhow will you best measure his temperature\n?",
         "options": {
           "a": "Oral",
           "b": "Rectal",
@@ -1781,7 +1781,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 2,
-        "question": "A patient in the emergency ward stays still while lying supine and hesitates to move. He also has very shallow breathing. This attitude of the patient is most likely due to which of the following conditions?",
+        "question": "A patient in the emergency ward stays still while lying supine and hesitates to move.\nHe also\nhas very shallow breathing.\nThis attitude of the patient is most likely due to which of the\nfollowing conditions?",
         "options": {
           "a": "Renal colic",
           "b": "Peritonitis",
@@ -1799,7 +1799,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 3,
-        "question": "An alcohol addict presented with easy fatiguability . On examination, he is found to have pallor. Peripheral smear showed macrocytes and anisocytosis . Which of the following findings is most likely to be seen in this patient ?",
+        "question": "An alcohol addict presented with easy fatiguability\n.\nOn examination,\nhe is found to have\npallor.\nPeripheral smear showed macrocytes and anisocytosis\n.\nWhich of the following findings\nis most likely to be seen in this patient\n?",
         "options": {
           "a": "Atrophic glossitis",
           "b": "Migratory glossitis",
@@ -1829,7 +1829,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 4,
-        "question": "A woman presents with bluish discoloration of the skin and mucous membranes. All of the following may be responsible for the given symptoms except :",
+        "question": "A woman presents with bluish discoloration of the skin and mucous membranes.\nAll of the\nfollowing may be responsible for the given symptoms except\n:",
         "options": {
           "a": "Methemoglobin exceeds 1.5 gm%",
           "b": "Sulfhemoglobin exceeds 0.5 gm%",
@@ -1865,7 +1865,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 6,
-        "question": "What are petechiae ?",
+        "question": "What are petechiae\n?",
         "options": {
           "a": "Large extravasation of blood in the skin",
           "b": "Skin hemorrhages measuring 2-3 mm",
@@ -1883,12 +1883,12 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 7,
-        "question": "A 28-year-old woman presented to the clinic with the lesions shown below . Which of the following conditions is/are associated with this lesion?",
+        "question": "A 28-year-old woman presented to the clinic with the lesions shown below\n.\nWhich of the\nfollowing conditions is/are associated with this lesion?",
         "options": {
           "a": "1 and",
-          "b": "2, 3 and",
-          "c": "1, 3 and",
-          "d": "1, 2 and"
+          "b": "2,\n3 and",
+          "c": "1,\n3 and",
+          "d": "1,\n2 and"
         },
         "answer": "d",
         "explanation": "The lesions shown in the image are spider naevi (nevus araneus). They are seen in: • Estrogen excess states such as pregnancy and OCP use18 • Chronic liver disease - especially alcoholic liver disease • Thyrotoxicosis They are vascular lesions characterized by the tortuous dilatation of arterioles just underneath the skin . On applying and releasing pressure over the lesion they typically fill from the centre outward .",
@@ -1903,7 +1903,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 8,
-        "question": "You observed the following finding in a patient in the OPD. Which among the following conditions is least likely to cause this finding?",
+        "question": "You observed the following finding in a patient in the OPD.\nWhich among the following\nconditions is least likely to cause this finding?",
         "options": {
           "a": "Endocarditis",
           "b": "Bronchiectasis",
@@ -1923,7 +1923,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 9,
-        "question": "A 40-year-old patient presents with loss of appetite , jaundice , and easy bruisability. He is a chronic alcohol user, and the following abnormality is noted on examination. What is the most likely cause of this nail change?",
+        "question": "A 40-year-old patient presents with loss of appetite\n,\njaundice\n,\nand easy bruisability.\nHe is a\nchronic alcohol user,\nand the following abnormality is noted on examination.\nWhat is the\nmost likely cause of this nail change?",
         "options": {
           "a": "Scurvy",
           "b": "Hypoalbuminemia",
@@ -1945,7 +1945,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 10,
-        "question": "A resident is examining a patient with bilateral leg swelling below the knees. He notes that on applying pressure , the indentation does not persist on release . What is the likely cause of the edema ?",
+        "question": "A resident is examining a patient with bilateral leg swelling below the knees.\nHe notes that on\napplying pressure\n,\nthe indentation does not persist on release\n.\nWhat is the likely cause of the\nedema\n?",
         "options": {
           "a": "Myxedema",
           "b": "Nephrotic syndrome",
@@ -1963,7 +1963,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 11,
-        "question": "While examining a patient 's pulse , you note a tapping impulse when you raise his arm above his head . Which of the following conditions would you not suspect in the patient ?",
+        "question": "While examining a patient\n's pulse\n,\nyou note a tapping impulse when you raise his arm above\nhis head\n.\nWhich of the following conditions would you not suspect in the patient\n?",
         "options": {
           "a": "Left-sided heart failure",
           "b": "Anemia",
@@ -1981,7 +1981,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 12,
-        "question": "True about the definition of Postural Hypotension :",
+        "question": "True about the definition of Postural Hypotension\n:",
         "options": {
           "a": "Decrease in Systolic blood pressure 20 mmHg after 6 mins of standing",
           "b": "Decrease in Systolic blood pressure 20 mmHg after 3 min of standing",
@@ -1999,7 +1999,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 13,
-        "question": "A 30-year-old African farmer presents with Winterbottom's sign. This sign is due to the involvement of:",
+        "question": "A 30-year-old African farmer presents with Winterbottom's sign.\nThis sign is due to the\ninvolvement of:",
         "options": {
           "a": "Deep cervical nodes",
           "b": "Supraclavicular nodes",
@@ -2035,7 +2035,7 @@
         "chapter_num": 1,
         "chapter": "Clinical examination",
         "q_num": 15,
-        "question": "A patient with rheumatic heart disease now presents with fever and the following nail finding. The nail lesions most likely are?",
+        "question": "A patient with rheumatic heart disease now presents with fever and the following nail finding.\nThe nail lesions most likely are?",
         "options": {
           "a": "Roth spots",
           "b": "Janeway lesions",
@@ -2084,9 +2084,9 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 2,
-        "question": "A 28-year-old sex worker presented with a painless ulcer on her vulva . On examination, inguinal lymphadenopathy is present . Which of the following methods has been used to demonstrate the causative agent as per the given image?",
+        "question": "A 28-year-old sex worker presented with a painless ulcer on her vulva\n.\nOn examination,\ninguinal lymphadenopathy is present\n.\nWhich of the following methods has been used to\ndemonstrate the causative agent as per the given image?",
         "options": {
-          "a": "Dark -field microscopy",
+          "a": "Dark\n-field microscopy",
           "b": "Phase contrast microscopy",
           "c": "Fluorescent microscopy",
           "d": "Electron microscopy"
@@ -2104,7 +2104,7 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 3,
-        "question": "Which among the following statements is false ?",
+        "question": "Which among the following statements is false\n?",
         "options": {
           "a": "Muramic acid is present in prokaryotes",
           "b": "Mitotic division is present in eukaryotes",
@@ -2166,7 +2166,7 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 6,
-        "question": "Which organism has the following cell wall structure ?",
+        "question": "Which organism has the following cell wall structure\n?",
         "options": {
           "a": "Gram-positive organism",
           "b": "Gram-negative organism",
@@ -2224,7 +2224,7 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 9,
-        "question": "Which of the following methods of sterilization involves exposure to 100 \\260C for 20 minutes on 3 successive days?",
+        "question": "Which of the following methods of sterilization involves exposure to 100\n\\260C for 20 minutes on\n3 successive days?",
         "options": {
           "a": "Autoclaving",
           "b": "Tyndallization",
@@ -2260,7 +2260,7 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 11,
-        "question": "Which of the following methods is used in the test shown below ?",
+        "question": "Which of the following methods is used in the test shown below\n?",
         "options": {
           "a": "Streak culture",
           "b": "Lawn culture",
@@ -2302,11 +2302,11 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 13,
-        "question": "A 32 -year-old laborer working at a construction site presented with fever and hemoptysis . The sputum sample collected for examination showed the following . The smear will be stained by which of the following sequences ?",
+        "question": "A 32\n-year-old laborer working at a construction site presented with fever and hemoptysis\n.\nThe\nsputum sample collected for examination showed the following\n.\nThe smear will be stained by\nwhich of the following sequences\n?",
         "options": {
           "a": "Gentian violet - iodine - alcohol - saffranin",
-          "b": "Methylene blue - malachite green - acetic acid-water",
-          "c": "Methanol -methylene blue -acid-water",
+          "b": "Methylene blue\n- malachite green\n-\nacetic acid-water",
+          "c": "Methanol\n-methylene blue\n-acid-water",
           "d": "Carbol fuschin - acid-alcohol - methylene blue"
         },
         "answer": "d",
@@ -2325,7 +2325,7 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 14,
-        "question": "Given are a few case scenarios. The etiological agents of which of the following are microaerophilic?",
+        "question": "Given are a few case scenarios.\nThe etiological agents of which of the following are\nmicroaerophilic?",
         "options": {
           "a": "2 and",
           "b": "3 and",
@@ -2343,7 +2343,7 @@
         "chapter_num": 1,
         "chapter": "General Microbiology",
         "q_num": 15,
-        "question": "The given image shows a culture medium with lactose fermenting and non-lactose fermenting bacteria. Which of the following is not a component of the culture medium?",
+        "question": "The given image shows a culture medium with lactose fermenting and non-lactose fermenting\nbacteria.\nWhich of the following is not a component of the culture medium?",
         "options": {
           "a": "Taurocholate",
           "b": "Peptone",
@@ -2370,7 +2370,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 1,
-        "question": "Which of the following is not a part of the vulva ?",
+        "question": "Which of the following is not a part of the vulva\n?",
         "options": {
           "a": "Labia majora",
           "b": "Vestibule",
@@ -2390,7 +2390,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 2,
-        "question": "Which of the following statements is false regarding labia majora ?",
+        "question": "Which of the following statements is false regarding labia majora\n?",
         "options": {
           "a": "They join posteriorly to form the posterior commissure",
           "b": "It is homologous to scrotum in male",
@@ -2410,10 +2410,10 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 3,
-        "question": "A patient presented to the gynecology OPD with the following finding. Which structure in men is homologous to the affected structure ?",
+        "question": "A patient presented to the gynecology OPD with the following finding.\nWhich structure in\nmen is homologous to the affected structure\n?",
         "options": {
           "a": "Prostate gland",
-          "b": "Cowper 's gland",
+          "b": "Cowper\n's gland",
           "c": "Glands of Littre",
           "d": "Meibomian glands"
         },
@@ -2434,7 +2434,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 4,
-        "question": "What is the pH of the vagina before puberty ?",
+        "question": "What is the pH of the vagina before puberty\n?",
         "options": {
           "a": "",
           "b": "4.",
@@ -2452,12 +2452,12 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 5,
-        "question": "Which of the following is incorrect about relations of the vagina ?",
+        "question": "Which of the following is incorrect about relations of the vagina\n?",
         "options": {
           "a": "Bladder - anterior",
           "b": "Bartholin's gland - posterior",
           "c": "Levator ani - lateral",
-          "d": "Pouch of Douglas - posterior"
+          "d": "Pouch of Douglas\n- posterior"
         },
         "answer": "b",
         "explanation": "Bartholin's gland is present lateral to the vagina . The vagina is related to the following structures : • Anteriorly: • Bladder (upper 1/3rd) • Urethra (lower 2/3rd) • Posteriorly • Pouch of Douglas • Ampulla of the rectum • Perineal body • Laterally16 • Mackenrodt's ligament • Levator ani • Bartholin's glands",
@@ -2495,7 +2495,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 7,
-        "question": "A patient with uterine prolapse and urethrocele has weakness in the superficial and deep perineal muscles . What level of support is lost here?",
+        "question": "A patient with uterine prolapse and urethrocele has weakness in the superficial and deep\nperineal muscles\n.\nWhat level of support is lost here?",
         "options": {
           "a": "Level",
           "b": "Level",
@@ -2534,12 +2534,12 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 9,
-        "question": "A G3P2L2 woman presents in her third trimester with vaginal leaking. On PV examination, the anterior lip of the cervix can be palpated . What is the position of her uterus and the ligament that maintains this position?",
+        "question": "A G3P2L2 woman presents in her third trimester with vaginal leaking.\nOn PV examination,\nthe anterior lip of the cervix can be palpated\n.\nWhat is the position of her uterus and the\nligament that maintains this position?",
         "options": {
-          "a": "Anteverted uterus - Round ligament",
-          "b": "Anteflexed uterus - Round ligament",
-          "c": "Anteverted uterus - Uterosacral ligament",
-          "d": "Anteflexed uterus - Broad ligament"
+          "a": "Anteverted uterus\n- Round ligament",
+          "b": "Anteflexed uterus\n- Round ligament",
+          "c": "Anteverted uterus\n- Uterosacral ligament",
+          "d": "Anteflexed uterus\n- Broad ligament"
         },
         "answer": "a",
         "explanation": "In the given clinical scenario, the uterus is anteverted as the anterior lip of the cervix was palpable . The round ligament helps maintain the anteversion of the uterus during pregnancy. However, the anteversion in the non-pregnant uterus is maintained by both the uterosacral ligament and round ligament . (Mnemonic - V for version, V for vagina ) The uterus normally lies in a position of anteversion and anteflexion . In the anteverted position, the external os is directed downward and backwards. On vaginal examination , the fingers come in contact with the anterior lip of the cervix as it is the lowest part. When the uterus is retroverted, the cervix is directed downward and forwards. The lowest part of the cervix becomes either the external os or its posterior lip. Anteflexion is seen at the level of the internal os.Angle of anteversion Angle of anteflexion Angle between thecervix and vagina Angle betweencervix and uter us 90o 120o20",
@@ -2554,7 +2554,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 10,
-        "question": "A multiparous woman presented with a urethrocele , due to weakness of the urogenital diaphragm. What is this structure also known as?",
+        "question": "A multiparous woman presented with a urethrocele\n,\ndue to weakness of the urogenital\ndiaphragm.\nWhat is this structure also known as?",
         "options": {
           "a": "Rectangular ligament",
           "b": "Triangular ligament",
@@ -2592,7 +2592,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 12,
-        "question": "A woman with regular menstrual cycles is undergoing an ultrasound on the 14th day of her cycle . What will the endometrial thickness be?",
+        "question": "A woman with regular menstrual cycles is undergoing an ultrasound on the 14th day of her\ncycle\n.\nWhat will the endometrial thickness be?",
         "options": {
           "a": "0.5 mm",
           "b": "4 mm",
@@ -2615,7 +2615,7 @@
           "a": "Round ligaments receive their blood supply from Sampson's artery",
           "b": "Transverse cervical ligaments are also called cardinal ligaments",
           "c": "Uterine innervation is by the pudendal nerve plexus",
-          "d": "Lymphatic drainage is primarily to the obturator, internal and external iliac nodes ."
+          "d": "Lymphatic drainage is primarily to the obturator,\ninternal and external iliac nodes\n."
         },
         "answer": "c",
         "explanation": "The uterus is innervated by the fibers of the uterovaginal plexus , also known as the Frankenhauser ganglion. Option A: Round ligaments receive their blood supply from Sampson's artery which represents the anastomosis of the uterine artery and ovarian artery. Option B: The cardinal ligaments are also called transverse cervical ligaments or Mackenrodt ligaments . They consist primarily of perivascular connective tissue . They attach to the posterolateral pelvic walls near the origin of the internal iliac artery and surround the vessels supplying the uterus and vagina . Option D: Lymphatic drainage of the uterus is primarily to the obturator and internal and external iliac nodes . One theory of endometriosis, states lymphatic spread as cause for seeding in the pelvis.",
@@ -2628,7 +2628,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 14,
-        "question": "A gynecologist is performing a hysterectomy . She accidentally nicks the ureter in the ureteric canal as it pierces the Mackenrodt's ligaments . Which vessels are likely to be damaged here?",
+        "question": "A gynecologist is performing a hysterectomy\n.\nShe accidentally nicks the ureter in the ureteric\ncanal as it pierces the Mackenrodt's ligaments\n.\nWhich vessels are likely to be damaged here?",
         "options": {
           "a": "Uterine artery above and the uterine plexus of veins below",
           "b": "Uterine plexus of veins above and the uterine artery below",
@@ -2648,7 +2648,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy of Female Pelvic Organs",
         "q_num": 15,
-        "question": "You take a culture swab from the portio vaginalis of a woman having foul smelling vaginal discharge. What is this region also known as?",
+        "question": "You take a culture swab from the portio vaginalis of a woman having foul smelling vaginal\ndischarge.\nWhat is this region also known as?",
         "options": {
           "a": "Supra vaginal part of cervix",
           "b": "Vaginal part of cervix",
@@ -2673,7 +2673,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 1,
-        "question": "The newborn eye is usually ______.",
+        "question": "The newborn eye is usually\n______.",
         "options": {
           "a": "Myopic",
           "b": "Hypermetropic",
@@ -2691,7 +2691,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 2,
-        "question": "At what age would a child attain full visual acuity ?",
+        "question": "At what age would a child attain full visual acuity\n?",
         "options": {
           "a": "6 months",
           "b": "1 year",
@@ -2709,7 +2709,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 3,
-        "question": "A 45-year-old lady presents with the abnormality as shown below . She is diagnosed with uveal melanoma. What is the embryological origin of the cells involved?",
+        "question": "A 45-year-old lady presents with the abnormality as shown below\n.\nShe is diagnosed with uveal\nmelanoma.\nWhat is the embryological origin of the cells involved?",
         "options": {
           "a": "Neural ectoderm",
           "b": "Mesoderm",
@@ -2729,12 +2729,12 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 4,
-        "question": "Which of the following statements is false regarding the development of the eye ?",
+        "question": "Which of the following statements is false regarding the development of the eye\n?",
         "options": {
           "a": "The macula is fully developed at birth.",
-          "b": "The lens grows throughout life .",
+          "b": "The lens grows throughout life\n.",
           "c": "The cornea attains normal diameter by 2 years.",
-          "d": "Full visual acuity is attained by 6 years of age ."
+          "d": "Full visual acuity is attained by 6 years of age\n."
         },
         "answer": "a",
         "explanation": "The macula is fully developed by 4–6 months of age . Apart from the macula, the rest of the retina is fully developed at birth. Postnatal Development of Eye : • 3 Months - Binocular single vision develops . • 4-6 Months - Macula fully develops . Fusional reflexes , stereopsis , and accommodation become well developed • 6 Months - Fixation, which had started developing in the first month is now complete • 2 Years - Cornea develops to the normal adult diameter • 6 Years - Visual acuity fully develops and reaches 6/6 • The lens, however, continues to grow throughout the life13",
@@ -2786,7 +2786,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 7,
-        "question": "After conception , the canal of Schlemm appears by __________________ .",
+        "question": "After conception\n,\nthe canal of Schlemm appears by __________________ .",
         "options": {
           "a": "3rd month",
           "b": "4th month",
@@ -2804,7 +2804,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 8,
-        "question": "What is the anteroposterior diameter of the adult eyeball ?",
+        "question": "What is the anteroposterior diameter of the adult eyeball\n?",
         "options": {
           "a": "2.6 cm",
           "b": "2.5 cm",
@@ -2822,7 +2822,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 9,
-        "question": "A 34-year-old lady comes to the clinic complaining of problems in her vision. On perimetry , a visual field defect as shown below is obtained . Which of the following vessels does not supply the anatomical location of the lesion?",
+        "question": "A 34-year-old lady comes to the clinic complaining of problems in her vision.\nOn perimetry\n,\na\nvisual field defect as shown below is obtained\n.\nWhich of the following vessels does not supply\nthe anatomical location of the lesion?",
         "options": {
           "a": "Anterior cerebral artery",
           "b": "Anterior communicating artery",
@@ -2844,11 +2844,11 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 10,
-        "question": "A college student comes to the OPD for refractive error testing . Her eyes are dilated using tropicamide. Which of the following statements is false about the structure this drug acts on?",
+        "question": "A college student comes to the OPD for refractive error testing\n.\nHer eyes are dilated using\ntropicamide.\nWhich of the following statements is false about the structure this drug acts on?",
         "options": {
-          "a": "It is triangular in cross section .",
+          "a": "It is triangular in cross section\n.",
           "b": "There are around 30-40 processes in pars plana and pars plicata",
-          "c": "Its epithelium is derived from the anterior edge of the optic cup .",
+          "c": "Its epithelium is derived from the anterior edge of the optic cup\n.",
           "d": "The pars plana is approximately 4.5 mm from the limbus."
         },
         "answer": "b",
@@ -2864,7 +2864,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 11,
-        "question": "A 12 -year-old girl you examined in an outreach camp is found to have this abnormality. What is the most common site where the condition is seen ?",
+        "question": "A 12\n-year-old girl you examined in an outreach camp is found to have this abnormality.\nWhat\nis the most common site where the condition is seen\n?",
         "options": {
           "a": "Superonasal",
           "b": "Inferonasal",
@@ -2888,7 +2888,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 12,
-        "question": "A child was brought with complaints of decreased vision. Fundus examination shows a developmental anomaly as shown below . What is the cause of this anomaly?",
+        "question": "A child was brought with complaints of decreased vision.\nFundus examination shows a\ndevelopmental anomaly as shown below\n.\nWhat is the cause of this anomaly?",
         "options": {
           "a": "Incomplete closure of the embryonic fissure",
           "b": "Faulty migration of neural crest cells",
@@ -2930,7 +2930,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 14,
-        "question": "The optic foramen is situated between the :",
+        "question": "The optic foramen is situated between the\n:",
         "options": {
           "a": "Lesser and greater wings of the sphenoid",
           "b": "Lesser wing and body of the sphenoid",
@@ -2950,7 +2950,7 @@
         "chapter_num": 1,
         "chapter": "Anatomy and Development of Eye",
         "q_num": 15,
-        "question": "During a game, a 26-year-old baseball player is hit in the head by a baseball , which fractures the optic canal. Which of the following pairs of structures is most likely to be damaged ?",
+        "question": "During a game,\na 26-year-old baseball player is hit in the head by a baseball\n,\nwhich fractures\nthe optic canal.\nWhich of the following pairs of structures is most likely to be damaged\n?",
         "options": {
           "a": "Optic nerve and ophthalmic vein",
           "b": "Ophthalmic vein and ophthalmic nerve",
@@ -2995,10 +2995,10 @@
         "q_num": 2,
         "question": "Match the following type of fractures with their associated mechanism of force.",
         "options": {
-          "a": "1-a, 2-d, 3-c, 4-b",
-          "b": "1-c, 2-a, 3-d, 4-b",
-          "c": "1-b, 2-c, 3-a, 4-d",
-          "d": "1-b, 2-a, 3-d, 4-c"
+          "a": "1-a,\n2-d,\n3-c,\n4-b",
+          "b": "1-c,\n2-a,\n3-d,\n4-b",
+          "c": "1-b,\n2-c,\n3-a,\n4-d",
+          "d": "1-b,\n2-a,\n3-d,\n4-c"
         },
         "answer": "b",
         "explanation": "The correct match is: Most fractures occur due to a combination of forces , but the dominant mechanism of force is revealed by the type of fracture.Type of fracture Mechanism of fo rce Transverse fractur e Tension Oblique fracture Compression Butterfly fragment Bending Spiral fracture TwistingBased on the continuity of the periosteum , fractures can be complete or incomplete . In complete fractures, the bone is split into two or more fragments and continuity of periosteum is disrupted . It can be:14 • Impacted fracture - The fracture fragments are jammed together and the fracture line is not visible • Comminuted fracture - There is a fracture of more than two fragments • Segmental fracture - A separated fragment is seen in the middle • Avulsion fracture - Breaking of a piece of bone attached to a strong muscle . e.g. olecranon and patella fracture In incomplete fractures, the bone is incompletely split and the periosteum remains in continuity . They include: • Greenstick fractures: The outer cortex breaks and the inner cortex bends causing the bone to buckle like the snapping of a green twig. It is seen in the pediatric population . • Compression fractures: Cancellous bone crumple due to force. This is typically seen in vertebral bodies , calcaneum, and the tibial plateau.",
@@ -3013,10 +3013,10 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 3,
-        "question": "An elderly woman was brought to the OPD after she slipped and fell from her chair. She is a known case of breast cancer with distant metastasis . The X-ray of the patient is given below . Which of the following statements is false regarding this type of fracture?",
+        "question": "An elderly woman was brought to the OPD after she slipped and fell from her chair.\nShe is a\nknown case of breast cancer with distant metastasis\n.\nThe X-ray of the patient is given below\n.\nWhich of the following statements is false regarding this type of fracture?",
         "options": {
           "a": "It occurs in abnormal bones",
-          "b": "Mirels ' score is used to assess the risk of fracture",
+          "b": "Mirels\n'\nscore is used to assess the risk of fracture",
           "c": "FDG-PET or CT is the gold standard in evaluating bony metastasis",
           "d": "Pain occurs only after the fracture"
         },
@@ -3037,7 +3037,7 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 4,
-        "question": "All of the following conditions can cause a pathological fracture, except :",
+        "question": "All of the following conditions can cause a pathological fracture,\nexcept\n:",
         "options": {
           "a": "Gaucher's disease",
           "b": "Osteogenesis imperfecta",
@@ -3055,7 +3055,7 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 5,
-        "question": "You are working as a medical officer in the Indian army. An army recruit presents to you with complaints of pain in the right foot. He joined his training 6 months back. His X-ray is given below . What is the most likely diagnosis?",
+        "question": "You are working as a medical officer in the Indian army.\nAn army recruit presents to you with\ncomplaints of pain in the right foot.\nHe joined his training 6 months back.\nHis X-ray is given\nbelow\n.\nWhat is the most likely diagnosis?",
         "options": {
           "a": "Pathological fracture",
           "b": "March fracture",
@@ -3098,7 +3098,7 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 7,
-        "question": "A teenager is brought to the casualty after sustaining a wrist injury during a sports meet . His X-ray is given below . The orthopedic surgeon tries to reduce the fracture fragments by using traction on soft tissues around the bones. What is this technique known as?",
+        "question": "A teenager is brought to the casualty after sustaining a wrist injury during a sports meet\n.\nHis\nX-ray is given below\n.\nThe orthopedic surgeon tries to reduce the fracture fragments by using\ntraction on soft tissues around the bones.\nWhat is this technique known as?",
         "options": {
           "a": "Callotaxis",
           "b": "Ligamentotaxis",
@@ -3120,12 +3120,12 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 8,
-        "question": "Hanging cast is used to treat which of the following ?",
+        "question": "Hanging cast is used to treat which of the following\n?",
         "options": {
           "a": "Olecranon fracture",
-          "b": "Malgaigne 's fracture",
+          "b": "Malgaigne\n's fracture",
           "c": "Humerus shaft fracture",
-          "d": "Colle 's fracture"
+          "d": "Colle\n's fracture"
         },
         "answer": "c",
         "explanation": "A hanging cast is used to treat the fractured shaft of the humerus. Humerus shaft fracture heals readily with just the external cast as it is usually enough to bring the fragments into alignment. The arm is placed over the lower chest with the elbow at 90\\260. A collar and cuff support can be used to maintain the position. The weight of the arm provides continuous traction to the humerus (traction by gravity).After the fracture is reduced , it is important to hold the reduction with some restriction of movements to promote soft -tissue healing and to allow free movement of the unaffected parts. The methods of holding reduction include : • Continuous traction (traction by gravity, skin traction, or skeletal traction) • Cast splintage • Functional bracing • Internal fixation • External fixation",
@@ -3140,12 +3140,12 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 9,
-        "question": "A cast was applied to a patient with a wrist injury as shown below . What is this cast known as?",
+        "question": "A cast was applied to a patient with a wrist injury as shown below\n.\nWhat is this cast known\nas?",
         "options": {
           "a": "Colles cast",
           "b": "Scaphoid cast",
           "c": "Bachelor cast",
-          "d": "Turn -buckle cast"
+          "d": "Turn\n-buckle cast"
         },
         "answer": "b",
         "explanation": "20 The cast applied to a patient in the glass holding position is known as the scaphoid cast. It is used to treat scaphoid fractures. To apply a scaphoid cast, the wrist is held in slight dorsiflexion and the thumb is in abduction and slight flexion as if the glass is being held between the index finger and thumb. It extends from just below the elbow to just proximal to the metacarpal necks of the digits . On the thumb, the cast extends just proximal to the interphalangeal joint. Scaphoid fracture presents with pain and swelling over the radial aspect of the wrist. A fall on an outstretched hand could result in such a fracture. The fracture can be confirmed (when an x-ray does not show a fracture) if there is pain elicited in the anatomical snuff box on the radial border of the wrist. An oblique x-ray of the wrist should be able to show a scaphoid fracture.",
@@ -3180,7 +3180,7 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 11,
-        "question": "A 40-year-old man presents with a fracture of the right tibia following an RTA . On examination , the wound is highly contaminated and appears as shown below . His distal pulses are felt well . According to the Gustilo -Anderson classification , this injury would be classified as type :",
+        "question": "A 40-year-old man presents with a fracture of the right tibia following an RTA\n.\nOn\nexamination\n,\nthe wound is highly contaminated and appears as shown below\n.\nHis distal\npulses are felt well\n.\nAccording to the Gustilo\n-Anderson classification\n,\nthis injury would be\nclassified as type\n:",
         "options": {
           "a": "II",
           "b": "IIIA",
@@ -3200,7 +3200,7 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 12,
-        "question": "You are the intern on duty and you receive patients who have been in a road traffic accident . For which of the following patients will you urgently call the orthopaedic resident on call?",
+        "question": "You are the intern on duty and you receive patients who have been in a road traffic accident\n.\nFor which of the following patients will you urgently call the orthopaedic resident on call?",
         "options": {
           "a": "Patient with recurrent shoulder dislocation",
           "b": "Patient with a fractured arm with capillary refill time of less than 3 seconds in his fingers",
@@ -3218,9 +3218,9 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 13,
-        "question": "An industrial worker was rushed to casualty after he accidentally got his leg stuck in a machine. On examination, he was found to have an open fracture as shown below . He was urgently taken up for wound debridement and was considered for primary closure . It can be performed in all of the following conditions, except :",
+        "question": "An industrial worker was rushed to casualty after he accidentally got his leg stuck in a\nmachine.\nOn examination,\nhe was found to have an open fracture as shown below\n.\nHe was\nurgently taken up for wound debridement and was considered for primary closure\n.\nIt can be\nperformed in all of the following conditions,\nexcept\n:",
         "options": {
-          "a": "If injury to debridement interval &lt; 12 hours",
+          "a": "If injury to debridement interval &lt;\n12 hours",
           "b": "Capillary refilling time of 2 seconds",
           "c": "Impaired nerve supply",
           "d": "Wound margin can be closed without tension"
@@ -3238,7 +3238,7 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 14,
-        "question": "In which of the following fractures is surgical management necessary for optimum functional results ?",
+        "question": "In which of the following fractures is surgical management necessary for optimum functional\nresults\n?",
         "options": {
           "a": "Clavicle fracture",
           "b": "Distal radius fracture",
@@ -3256,7 +3256,7 @@
         "chapter_num": 1,
         "chapter": "Basics of fracture and its management",
         "q_num": 15,
-        "question": "All of the following are common indications for the procedure shown below , except :",
+        "question": "All of the following are common indications for the procedure shown below\n,\nexcept\n:",
         "options": {
           "a": "Burns over the fracture site",
           "b": "Type 1 open fracture",
@@ -3327,8 +3327,8 @@
         "options": {
           "a": "It was formed in 2014 in India for education and research on AYUSH",
           "b": "It aims to mainstream AYUSH as part of the National Rural Health Mission",
-          "c": "It was previously known a s department of Indian system of medicine and homeopathy",
-          "d": "It regulates the fields of Ayurveda, Yoga, Homeopathy and Siddha only"
+          "c": "It was previously known a\ns department of Indian system of medicine and homeopathy",
+          "d": "It\nregulates the fields of Ayurveda,\nYoga,\nHomeopathy and Siddha only"
         },
         "answer": "d",
         "explanation": "The Ministry of AYUSH was established to regulate the fields of Ayurveda, Yoga , and Naturopathy, Unani, Siddha, and Homeopathy. It was formed in 2014 in India for the development of education and research in AYUSH. It was previously known as the Department of Indian System of Medicine and Homeopathy (ISM&amp;H). It aims to mainstream AYUSH as part of the National Rural Health Mission (NRHM). The Ayurveda, Siddha, and Yoga systems of medicine are of Indian origin. Ayurveda means knowledge of life. Its origin can be traced back to 5000 B.C (Vedic times). The medical knowledge in the Atharvaveda eventually developed into Ayurveda. The Unani system is of Greek origin.",
@@ -3361,7 +3361,7 @@
         "chapter_num": 1,
         "chapter": "History of Medicine",
         "q_num": 5,
-        "question": "The Tridosha theory of disease explains disease as a disturbance in the equilibrium of the three humors. To which system of medicine does this theory belong to?",
+        "question": "The Tridosha theory of disease explains disease as a disturbance in the equilibrium of the\nthree humors.\nTo which system of medicine does this theory belong to?",
         "options": {
           "a": "Ayurveda",
           "b": "Homeopathy",
@@ -3415,7 +3415,7 @@
         "chapter_num": 1,
         "chapter": "History of Medicine",
         "q_num": 8,
-        "question": "Inoculating a person with a small amount o f infective material to obtain protection against it was first pioneered by:",
+        "question": "Inoculating a person with a small amount o\nf infective material to obtain protection against it\nwas\nfirst pioneered by:",
         "options": {
           "a": "Robert Koch",
           "b": "Edward Jenner",
@@ -3497,7 +3497,7 @@
         "options": {
           "a": "Andreas Vesalius",
           "b": "Avicenna",
-          "c": "H ippocrates",
+          "c": "H\nippocrates",
           "d": "John Snow"
         },
         "answer": "b",
@@ -3514,7 +3514,7 @@
         "chapter_num": 1,
         "chapter": "History of Medicine",
         "q_num": 13,
-        "question": "Who was the mastermind behind the great medical work, Fabrica?",
+        "question": "Who was the mastermind behind the great medical work,\nFabrica?",
         "options": {
           "a": "Andreas Vesalius",
           "b": "Ambroise Par\\",
@@ -3556,10 +3556,10 @@
         "q_num": 15,
         "question": "Match the following scientists with their discoveries:",
         "options": {
-          "a": "1-a, 2-b, 3-d, 4-c",
-          "b": "1-b, 2-a, 3-c, 4-d",
-          "c": "1-d, 2-c, 3-b, 4-a",
-          "d": "1-c, 2-d, 3-a, 4-b"
+          "a": "1-a,\n2-b,\n3-d,\n4-c",
+          "b": "1-b,\n2-a,\n3-c,\n4-d",
+          "c": "1-d,\n2-c,\n3-b,\n4-a",
+          "d": "1-c,\n2-d,\n3-a,\n4-b"
         },
         "answer": "d",
         "explanation": "The discoveries of the given scientists are as follows: • John Snow - association of cholera with polluted water • Edward Jenner - smallpox vaccination • Louis Pasteur - the germ theory of disease • James Lind - prevention of scurvy by intake of citrus fruits Louis Pasteur was the first to advance the germ theory of disease, which stated that most diseases were caused by microorganisms. This theory was later expanded by Robert Koch, who put forth Koch's postulates. Pasteur is also k nown for the following contributions: • Disproved the theory of spontaneous generation • Developed vaccines for rabies and fowl cholera • Pioneer of techniques of pasteurization and sterilization The following images show Pasteur and Lind respectively:21 Scientist / Doctor Achievements Susruta Father of Indian SurgeryFath er of Plastic and Cosmetic Su rgeryAuthor of \"Susruta Sam hita\" Hippocrates First True EpidemiologistFat her of MedicineAuthor of \"Ai rs, Water and Place\" Charaka Father of Indian MedicineAu thor of \"Charaka Samhita\" Avicenna Author of \"Canon of Medicin e\" and \"The Book on Healing\" Andreas Vesalius Father of Modern AnatomyA uthor of \"Fabrica\"22 Scientist / Doctor Achievements Hammurabi Author of \"Babylonian Code of Hammurabi \" John Snow Father of Epidemiology Louis Pasteur Robert Koch / Ferdinand Cohn Father of Bacteriology Samuel Hahnemann Father of Homeopathy",
@@ -3621,7 +3621,7 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 3,
-        "question": "What is the study of heritable changes in gene expression that are not caused by alterations in DNA sequence?",
+        "question": "What is the study of heritable changes in gene expression that are not caused by alterations in\nDNA sequence?",
         "options": {
           "a": "Genomics",
           "b": "Phylogenetics",
@@ -3639,7 +3639,7 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 4,
-        "question": "Micro-RNA are involved during which of the following stages ?",
+        "question": "Micro-RNA are involved during which of the following stages\n?",
         "options": {
           "a": "Pre-transcriptional",
           "b": "Post transcriptional",
@@ -3657,7 +3657,7 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 5,
-        "question": "Which of the following statements is false about microRNAs ?",
+        "question": "Which of the following statements is false about microRNAs\n?",
         "options": {
           "a": "They are coding RNAs",
           "b": "They are involved in cell differentiation and carcinogenesis",
@@ -3693,11 +3693,11 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 7,
-        "question": "Which of the following statements is false ?",
+        "question": "Which of the following statements is false\n?",
         "options": {
           "a": "Atrophy is a type of reversible cell injury",
           "b": "Plasma membrane blebbing occurs in reversible cell injury",
-          "c": "On removal of stimulus , necrosis can be reversed",
+          "c": "On removal of stimulus\n,\nnecrosis can be reversed",
           "d": "Chronic sublethal stimulus can cause cellular aging"
         },
         "answer": "c",
@@ -3787,7 +3787,7 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 12,
-        "question": "A patient with long-standing hypertension develops left ventricular hypertrophy . Which of the following transcription factors do not play a role in this?",
+        "question": "A patient with long-standing hypertension develops left ventricular hypertrophy\n.\nWhich of the\nfollowing transcription factors do not play a role in this?",
         "options": {
           "a": "GATA",
           "b": "NFAT",
@@ -3807,12 +3807,12 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 13,
-        "question": "How does myosin change during muscle hypertrophy ?",
+        "question": "How does myosin change during muscle hypertrophy\n?",
         "options": {
-          "a": "From \\037-heavy chain to \u0000o -heavy chain",
-          "b": "From \u0000o -heavy chain to \\037-heavy chain",
-          "c": "From \u0000o -light chain to \\037-light chain",
-          "d": "From \\037-light chain to \u0000o -light chain"
+          "a": "From\n\\037-heavy chain to\n\u0000o\n-heavy chain",
+          "b": "From\n\u0000o\n-heavy chain to\n\\037-heavy chain",
+          "c": "From\n\u0000o\n-light chain to\n\\037-light chain",
+          "d": "From\n\\037-light chain to\n\u0000o\n-light chain"
         },
         "answer": "a",
         "explanation": "During muscle hypertrophy , the \\037-isoform of the myosin heavy chain is replaced by the \u0000o -isoform. It produces slower and more energetically economic contraction. During hypertrophy , there may occur a switch of contractile proteins from the adult isoforms to the fetal or infantile isoforms.",
@@ -3825,7 +3825,7 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 14,
-        "question": "Both physiological hyperplasia and hypertrophy are simultaneously seen in which of the following individuals?",
+        "question": "Both physiological hyperplasia and hypertrophy are simultaneously seen in which of the\nfollowing individuals?",
         "options": {
           "a": "A 24-year-old man vigorously training for an athletic race",
           "b": "A 35-year-old woman regularly taking combined oral contraceptive pills",
@@ -3843,7 +3843,7 @@
         "chapter_num": 1,
         "chapter": "Cellular Genetics, Adaptations and Injury",
         "q_num": 15,
-        "question": "Which among the following do not usually undergo hyperplasia ?",
+        "question": "Which among the following do not usually undergo hyperplasia\n?",
         "options": {
           "a": "Skeletal muscle only",
           "b": "Skeletal and heart muscle",
@@ -3888,7 +3888,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 2,
-        "question": "You would classify a baby as post -term if it is born after ________",
+        "question": "You would classify a baby as post\n-term if it is born after ________",
         "options": {
           "a": "40 weeks of completed gestation",
           "b": "40 weeks and 2 days",
@@ -3906,7 +3906,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 3,
-        "question": "You would classify a baby as a very low birth weight baby if the weight of the baby is found to be less than _____ kg.",
+        "question": "You would classify a baby as a very low birth weight baby if the weight of the baby is found to\nbe less than _____ kg.",
         "options": {
           "a": "",
           "b": "1.",
@@ -3924,7 +3924,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 4,
-        "question": "Reena, a 34-year-old lady with gestation diabetes mellitus delivers an LGA baby at 37 weeks . What would the birth weight of this child be?",
+        "question": "Reena,\na 34-year-old lady with gestation diabetes mellitus delivers an LGA baby at 37 weeks\n.\nWhat would the birth weight of this child be?",
         "options": {
           "a": "&gt;75th Percentile",
           "b": "&gt;97th Percentile",
@@ -3944,7 +3944,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 5,
-        "question": "As the intern assisting in the labor room, you are tasked with administering Vitamin K to the term newborns with no complications . Which of the following dose and route would you use for administration?",
+        "question": "As the intern assisting in the labor room,\nyou are tasked with administering Vitamin K to the\nterm newborns with no complications\n.\nWhich of the following dose and route would you use\nfor administration?",
         "options": {
           "a": "0.5 - 1 mg IM",
           "b": "5 - 10 mg IV",
@@ -3962,7 +3962,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 6,
-        "question": "A term neonate born by normal vaginal delivery is diagnosed with hypothermia . Which of the following is not a physiological response for heat regulation in this baby?",
+        "question": "A term neonate born by normal vaginal delivery is diagnosed with hypothermia\n.\nWhich of the\nfollowing is not a physiological response for heat regulation in this baby?",
         "options": {
           "a": "Shivering",
           "b": "Breakdown of brown fat with noradrenaline secretion",
@@ -3980,7 +3980,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 7,
-        "question": "You are conducting the routine newborn assessment of a 2.3 kg baby born 10 minutes back. You would classify the neonate as having cold stress if you notice the body temperature to be:",
+        "question": "You are conducting the routine newborn assessment of a 2.3 kg baby born 10 minutes back.\nYou would classify the neonate as having cold stress if you notice the body temperature to be:",
         "options": {
           "a": "35.4-36.0 \\260C",
           "b": "33.4-34.0 \\260C",
@@ -3998,7 +3998,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 8,
-        "question": "A 24-year-old primigravida delivers a preterm baby at 33 weeks of gestation with a birth weight of 2 kg. She is advised to hold her child as shown below . Which of the following statements about this method is false ?",
+        "question": "A 24-year-old primigravida delivers a preterm baby at 33 weeks of gestation with a birth\nweight of 2 kg.\nShe is advised to hold her child as shown below\n.\nWhich of the following\nstatements about this method is false\n?",
         "options": {
           "a": "Can be continued at home",
           "b": "Safety and thermal protection is equivalent to incubators",
@@ -4018,7 +4018,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 9,
-        "question": "You are the intern posted in the labor room and are tasked with calculating the gestational maturity of the infants delivered . As per the expanded New Ballard scoring, what will be the lowest and highest scores you can obtain?",
+        "question": "You are the intern posted in the labor room and are tasked with calculating the gestational\nmaturity of the infants delivered\n.\nAs per the expanded New Ballard scoring,\nwhat will be the\nlowest and highest scores you can obtain?",
         "options": {
           "a": "0 and",
           "b": "-10 and",
@@ -4036,9 +4036,9 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 10,
-        "question": "Which of the following is a component of the neuromuscular criteria for maturity according to the expanded New Ballard score?",
+        "question": "Which of the following is a component of the neuromuscular criteria for maturity according\nto the expanded New Ballard score?",
         "options": {
-          "a": "Heel -knee test",
+          "a": "Heel\n-knee test",
           "b": "Finger-nose test",
           "c": "Scarf sign",
           "d": "Cubital angle"
@@ -4057,7 +4057,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 11,
-        "question": "A 1.8 Kg neonate is born to a 24-year-old primigravida with no antenatal checkups . While calculating the physical maturity of the neonate by the new Ballard scoring, which of the following criteria would you not take into account?",
+        "question": "A 1.8 Kg neonate is born to a 24-year-old primigravida with no antenatal checkups\n.\nWhile\ncalculating the physical maturity of the neonate by the new Ballard scoring,\nwhich of the\nfollowing criteria would you not take into account?",
         "options": {
           "a": "Skin",
           "b": "Lanugo hair",
@@ -4075,7 +4075,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 12,
-        "question": "While examining a healthy term neonate , you notice that the baby passes greenish -black colored stools . This color is due to -",
+        "question": "While examining a healthy term neonate\n,\nyou notice that the baby passes greenish\n-black\ncolored stools\n.\nThis color is due to -",
         "options": {
           "a": "Bilirubin",
           "b": "Biliverdin",
@@ -4093,7 +4093,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 13,
-        "question": "When does the parachute reflex disappear ?",
+        "question": "When does the parachute reflex disappear\n?",
         "options": {
           "a": "At 3 months",
           "b": "At 6 months",
@@ -4111,10 +4111,10 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 14,
-        "question": "A 6-day old infant is being examined. While checking the reflexes , a brisk Moro's reflex is noted . Which of the following conditions is a likely cause for this?",
+        "question": "A 6-day old infant is being examined.\nWhile checking the reflexes\n,\na brisk Moro's reflex is\nnoted\n.\nWhich of the following conditions is a likely cause for this?",
         "options": {
           "a": "Kernicterus",
-          "b": "Stage III hypoxic ischemic encephalopathy (HIE)",
+          "b": "Stage III hypoxic ischemic encephalopathy\n(HIE)",
           "c": "Hypoglycemia",
           "d": "Erb's palsy"
         },
@@ -4131,7 +4131,7 @@
         "chapter_num": 1,
         "chapter": "Basics of Neonatology and Routine Newborn Care",
         "q_num": 15,
-        "question": "You are demonstrating findings in a pediatric OSCE examination on a 4-day old neonate . On turning the baby's head to the left , you obtain the finding as shown below . At what age does this reflex normally disappear ?",
+        "question": "You are demonstrating findings in a pediatric OSCE examination on a 4-day old neonate\n.\nOn\nturning the baby's head to the left\n,\nyou obtain the finding as shown below\n.\nAt what age does\nthis reflex normally disappear\n?",
         "options": {
           "a": "6 months",
           "b": "9 months",
@@ -4160,7 +4160,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 1,
-        "question": "Fundoscopic evaluation in an HIV patient showed CMV retinitis. He was started on intravenous foscarnet, a highly ionized drug. Which of the following statements is true about the drug?",
+        "question": "Fundoscopic evaluation in an HIV patient showed CMV retinitis.\nHe was started on\nintravenous foscarnet,\na highly ionized drug.\nWhich of the following statements is true about\nthe drug?",
         "options": {
           "a": "Excreted mainly by the kidneys",
           "b": "Can cross the blood brain barrier easily",
@@ -4178,7 +4178,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 2,
-        "question": "Alkalinization of the urine is done in case of toxicity with which of the following substances ?",
+        "question": "Alkalinization of the urine is done in case of toxicity with which of the following substances\n?",
         "options": {
           "a": "Barbiturate",
           "b": "Amphetamine",
@@ -4196,12 +4196,12 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 3,
-        "question": "When the pH = pKa of a drug, which of the following statements is true?",
+        "question": "When the pH = pKa of a drug,\nwhich of the following statements is true?",
         "options": {
-          "a": "Concentration of the drug is 50% ionic and 50 % non-ionic",
-          "b": "Concentration of the drug is 90% ionic and 10 % non-ionic",
-          "c": "Concentration of the drug is 75 % ionic and 25 % non-ionic",
-          "d": "Concentration of the drug is 25% ionic and 75 % non-ionic"
+          "a": "Concentration of the drug is 50%\nionic and 50 % non-ionic",
+          "b": "Concentration of the drug is 90%\nionic and 10\n%\nnon-ionic",
+          "c": "Concentration of the drug is 75\n%\nionic and 25 % non-ionic",
+          "d": "Concentration of the drug is 25%\nionic and 75\n% non-ionic"
         },
         "answer": "a",
         "explanation": "When the pH = pKa of a drug, the concentration of the drug is 50% ionic and 50% non-ionic. pKa is defined as the pH at which a drug exists as 50% ionized (hydrophilic ) and 50% unionized (lipophilic ). For e.g., phenobarbitone is an acidic drug with a pKa of 7.2. At a pH of 7.2, 50% will be unionized. In a more basic plasma (pH=7.4), a lesser fraction (around 40%) will be unionized. Small changes in pH near pKa of a drug may cause large variations in the degree of ionization.",
@@ -4214,7 +4214,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 4,
-        "question": "In a patient with nephrotic syndrome, drug toxicity is least likely with which of the following drugs?",
+        "question": "In a patient with nephrotic syndrome,\ndrug toxicity is least likely with which of the following\ndrugs?",
         "options": {
           "a": "Efavirenz",
           "b": "Morphine",
@@ -4232,7 +4232,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 5,
-        "question": "What does time for peak plasma concentration (Tmax ) indicate ?",
+        "question": "What does time for peak plasma concentration (Tmax\n)\nindicate\n?",
         "options": {
           "a": "Rate of elimination",
           "b": "Rate of absorption",
@@ -4250,7 +4250,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 6,
-        "question": "The pharmacokinetics of an experimental drug is being studied . If its apparent volume of distribution is 6L /kg, which of the following is true regarding its distribution?",
+        "question": "The pharmacokinetics of an experimental drug is being studied\n.\nIf its apparent volume of\ndistribution is 6L\n/kg,\nwhich of the following is true regarding its distribution?",
         "options": {
           "a": "Highly bound to plasma proteins",
           "b": "Confined to vascular compartment",
@@ -4268,11 +4268,11 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 7,
-        "question": "Which of the following parameters is used to assess the extent of drug absorption in a plasma concentration vs. time graph?",
+        "question": "Which of the following parameters is used to assess the extent of drug absorption in a plasma\nconcentration vs.\ntime graph?",
         "options": {
           "a": "Tmax",
           "b": "Cmax",
-          "c": "T1 /",
+          "c": "T1\n/",
           "d": "Area under the curve"
         },
         "answer": "d",
@@ -4324,7 +4324,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 10,
-        "question": "Which of the following drugs approach zero-order kinetics at higher therapeutic levels ?",
+        "question": "Which of the following drugs approach zero-order kinetics at higher therapeutic levels\n?",
         "options": {
           "a": "Penicillin",
           "b": "Phenytoin",
@@ -4342,7 +4342,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 11,
-        "question": "Which of the following routes of administration will not bypass hepatic first-pass metabolism ?",
+        "question": "Which of the following routes of administration will not bypass hepatic first-pass\nmetabolism\n?",
         "options": {
           "a": "Sublingual",
           "b": "Oral",
@@ -4360,7 +4360,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 12,
-        "question": "In the metabolism of xenobiotics , all of the following are phase 1 reactions except ?",
+        "question": "In the metabolism of xenobiotics\n,\nall of the following are phase 1 reactions except\n?",
         "options": {
           "a": "Oxidation",
           "b": "Reduction",
@@ -4396,7 +4396,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 14,
-        "question": "All of the following can cause lupus -like syndromes except :",
+        "question": "All of the following can cause lupus\n-like syndromes except\n:",
         "options": {
           "a": "Isoniazid",
           "b": "Penicillin",
@@ -4414,7 +4414,7 @@
         "chapter_num": 1,
         "chapter": "Pharmacokinetics",
         "q_num": 15,
-        "question": "A patient on long-term anticoagulation therapy with warfarin would need an increased dose when coadministered with which of the following drugs?",
+        "question": "A patient on long-term anticoagulation therapy with warfarin would need an increased dose\nwhen coadministered with which of the following drugs?",
         "options": {
           "a": "Captopril",
           "b": "Erythromycin",
@@ -4439,11 +4439,11 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 1,
-        "question": "Homeostasis is called as dynamic equilibrium because ______",
+        "question": "Homeostasis is called as dynamic equilibrium because\n______",
         "options": {
           "a": "All variables are given equal importance",
           "b": "Can achieve a constancy in extreme environmental challenge",
-          "c": "The set -point for all homeostatic variables is always fixed",
+          "c": "The set\n-point for all homeostatic variables is always fixed",
           "d": "Body maintains an internal balance within fluctuating limits"
         },
         "answer": "d",
@@ -4457,7 +4457,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 2,
-        "question": "Which is a component of homeostatic control system ?",
+        "question": "Which is a component of homeostatic control system\n?",
         "options": {
           "a": "Stimulus",
           "b": "Receptor",
@@ -4495,7 +4495,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 4,
-        "question": "Positive feedback is seen in all except _____",
+        "question": "Positive feedback is seen in all except\n_____",
         "options": {
           "a": "LH surge",
           "b": "Action potential",
@@ -4513,7 +4513,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 5,
-        "question": "On infusion of a large volume of blood, the MAP rises from 100 mmHg to 175 mmHg. Due to the baroreceptor feedback mechanism, the MAP falls down to 125 mmHg. Calculate the gain of the feedback system .",
+        "question": "On infusion of a large volume of blood,\nthe MAP rises from 100 mmHg to 175 mmHg.\nDue to\nthe baroreceptor feedback mechanism,\nthe MAP falls down to 125 mmHg.\nCalculate the gain\nof the feedback system\n.",
         "options": {
           "a": "-",
           "b": "-",
@@ -4531,7 +4531,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 6,
-        "question": "Plasma membrane in eukaryotes is made up of all except _______",
+        "question": "Plasma membrane in eukaryotes is made up of all except\n_______",
         "options": {
           "a": "Cholesterol",
           "b": "Lecithin",
@@ -4587,7 +4587,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 9,
-        "question": "Which of the following membranes has the highest protein content per gram tissue ?",
+        "question": "Which of the following membranes has the highest protein content per gram tissue\n?",
         "options": {
           "a": "Myelin sheath",
           "b": "Outer mitochondrial membrane",
@@ -4607,10 +4607,10 @@
         "q_num": 10,
         "question": "The sequence of vesicular transport in a cell is",
         "options": {
-          "a": "ER - Trans - Cis - Mitochondria",
-          "b": "ER - Cis - Trans - Mitochondria",
-          "c": "ER - Trans - Cis - Cell membrane",
-          "d": "ER - Cis - Trans - Cell membrane"
+          "a": "ER - Trans\n- Cis - Mitochondria",
+          "b": "ER - Cis - Trans\n- Mitochondria",
+          "c": "ER - Trans\n- Cis - Cell membrane",
+          "d": "ER - Cis - Trans\n- Cell membrane"
         },
         "answer": "d",
         "explanation": "The sequence of vesicular transport in a cell is ER - Cis - Trans - Cell membrane. Rough endoplasmic reticulum (RER) - It is the site of protein synthesis . Proteins are taken to the Golgi apparatus through transport vesicles . Cis end of Golgi apparatus - Also called as receiving end, it is closest to RER Trans end of Golgi apparatus - Also called as releasing end, it is furthest away from RER. Cell membrane - Synthesised proteins within secretory vesicles are released into the extracellular space through the process of exocytosis .",
@@ -4625,7 +4625,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 11,
-        "question": "All of the following are enzyme markers of mitochondria except ____",
+        "question": "All of the following are enzyme markers of mitochondria except\n____",
         "options": {
           "a": "ATP synthase",
           "b": "5'-nucleotidase",
@@ -4643,7 +4643,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 12,
-        "question": "Which of the following will test negative for all mitochondrial markers ?",
+        "question": "Which of the following will test negative for all mitochondrial markers\n?",
         "options": {
           "a": "Spermatozoa",
           "b": "Ova",
@@ -4661,7 +4661,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 13,
-        "question": "Which is the characteristic enzyme present in peroxisome ?",
+        "question": "Which is the characteristic enzyme present in peroxisome\n?",
         "options": {
           "a": "Arylsulfatases",
           "b": "Ribonuclease",
@@ -4679,7 +4679,7 @@
         "chapter_num": 1,
         "chapter": "Homeostasis and cellular physiology",
         "q_num": 14,
-        "question": "Gap junctions are found in all except ______",
+        "question": "Gap junctions are found in all except\n______",
         "options": {
           "a": "Neurons",
           "b": "Cardiac muscle",
@@ -4746,10 +4746,10 @@
         "q_num": 2,
         "question": "Which of the following principles is matched correctly with the part of the mind it works on?",
         "options": {
-          "a": "Id- principle of reality, in the conscious domain",
-          "b": "Ego- principle of pleasure, in the unconscious domain",
-          "c": "Super Ego- principle of idealism, both in the conscious and unconscious domain",
-          "d": "Id- defence mechanisms, in the unconscious domain"
+          "a": "Id-\nprinciple of reality,\nin the conscious domain",
+          "b": "Ego-\nprinciple of pleasure,\nin the unconscious domain",
+          "c": "Super Ego-\nprinciple of idealism,\nboth in the conscious and unconscious domain",
+          "d": "Id-\ndefence mechanisms,\nin the unconscious domain"
         },
         "answer": "c",
         "explanation": "The superego is based on the principle of idealism, both in the conscious and unconscious domain. It acts to perfect and civilize our behaviour. The voice of conscience comes from the superego. It is mostly unconscious but also has a conscious component. Sigmund Freud's structural theory of mind divides mental apparatus into the following: • Id (new-born) is a reservoir for basic survival instincts, aggression, and survival drives. It is based o n the pleasure principle (immediate gratification). It is entirely unconscious. • Ego (reality principle) is the executive part of the mind that maintains the balance between id and superego. It is based on exposure to reality and utilizes influences from the external world to modify the id. It is conscious except for unconscious defense mechanisms. • Superego (idealism principle) establishes and maintains a moral conscience in an individual by constantly comparing a p erson's thoughts and feelings to expected standards of behavior. E .g., While studying, our id wants us to watch a movie instead and our superego wants us to study very hard without taking many breaks. Our ego thus balances between the two and we decide that we will study for few hours and then take a break to watch a movie.",
@@ -4762,7 +4762,7 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 3,
-        "question": "According to Sigmund Freud, we have a barrier in our mind called repression. This function is done by which of the following part of the mind?",
+        "question": "According to Sigmund Freud,\nwe have a barrier in our mind called repression.\nThis function\nis done by which of the following part of the mind?",
         "options": {
           "a": "The conscious part",
           "b": "The preconscious part",
@@ -4784,8 +4784,8 @@
         "options": {
           "a": "Primary process thinking is illogical and primitive",
           "b": "An unconscious thought can never reach conscious awareness",
-          "c": "The drives and desires that one is born with are part of the u nconscious mind",
-          "d": "The contents of the preconscious mind can be brought into awareness by focussing"
+          "c": "The drives and desires that one is born with are part of the u\nnconscious mind",
+          "d": "The\ncontents of the preconscious mind can be brought into awareness by focussing"
         },
         "answer": "b",
         "explanation": "According to Sigmund Freud's topographical theory, an unconscious memory or thought can reach consciousness by overcoming the barrier of repression. This barrier can be overcome in two ways: • During sleep- the repression force is l ax, and thus many unconscious desires and thoughts reach our consciousness through dreams. So, he believed that the interpretation of dreams can reveal the contents of the unconscious mind. • Free association- when a person is relaxed enough to say whatever comes to their minds without censoring thoughts, a few unconscious thoughts may come out by a slip of the tongue. Note: In psychotherapy, there is a process called abreaction by which repressed material, particular ly a p ainful experience or conflict, is brought back to consciousness by hypnosis or free association. In this process, the person not only recalls but also relives the repressed material causing an emotional release.",
@@ -4798,7 +4798,7 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 5,
-        "question": "What is defined as the emotional release and discharge after consciously reliving a painful experience that has been repressed?",
+        "question": "What is defined as the emotional release and discharge after consciously reliving a painful\nexperience that has been repressed?",
         "options": {
           "a": "Catharsis",
           "b": "Abreaction",
@@ -4852,7 +4852,7 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 8,
-        "question": "There is a complex named after a legendary Greek hero who unknowingly killed his father and married his own mother. In which stage of psychosexual development does this complex develop in children?",
+        "question": "There is a complex named after a legendary Greek hero who unknowingly killed his father\nand married his own mother.\nIn which stage of psychosexual development does this complex\ndevelop in children?",
         "options": {
           "a": "Oral",
           "b": "Genital",
@@ -4870,7 +4870,7 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 9,
-        "question": "According to psychoanalytic theory, alcoholic people have become fixative in which stage of psychosexual development?",
+        "question": "According to psychoanalytic theory,\nalcoholic people have become fixative in which stage of\npsychosexual development?",
         "options": {
           "a": "Oral",
           "b": "Anal",
@@ -4888,7 +4888,7 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 10,
-        "question": "According to Erikson, the major conflict in the first year of life is between which of the following?",
+        "question": "According to Erikson,\nthe major conflict in the first year of life is between which of the\nfollowing?",
         "options": {
           "a": "Trust vs mistrust",
           "b": "Initiative vs guilt",
@@ -4906,7 +4906,7 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 11,
-        "question": "\"Guard your thoughts for they shape your future\". Teachers, peers, and adults outside the home become important in shaping attitudes towards oneself in which of the following Erikson's stages?",
+        "question": "\"Guard your thoughts for they shape your future\".\nTeachers,\npeers,\nand adults outside the\nhome become important in shaping attitudes towards oneself in which of the following\nErikson's stages?",
         "options": {
           "a": "Trust vs mistrust",
           "b": "Initiative vs guilt",
@@ -4924,7 +4924,7 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 12,
-        "question": "A 4-year-old child is brought to the casualty following a skating injury. The parents encouraged him to ask questions. He talked for most of the conversation and exc itedly e xplained he wanted to try this so his parents let him. He even painted one wall in their house and asked if the doctor wants to see it. By this behavior of parents, what they are encouraging in the child?",
+        "question": "A 4-year-old child is brought to the casualty following a skating injury.\nThe parents\nencouraged him to ask questions.\nHe talked for most of the conversation and exc\nitedly\ne\nxplained\nhe wanted to try this so his parents let him.\nHe even painted one wall in their house\nand asked if the doctor wants to see it.\nBy this behavior of parents,\nwhat they are encouraging\nin the child?",
         "options": {
           "a": "Autonomy",
           "b": "Identity",
@@ -4942,11 +4942,11 @@
         "chapter_num": 1,
         "chapter": "Theories of Personality & Defense Mechanisms",
         "q_num": 13,
-        "question": "According to the stages of cognitive development, which of the following is correctly matched?",
+        "question": "According to the stages of cognitive development,\nwhich of the following is correctly\nmatched?",
         "options": {
           "a": "Starts seeing things from other's perspective - Stage of formal operation",
-          "b": "Conservation and reversibility - Pre-operational s tage",
-          "c": "Symbolisation - Sensorimotor stage",
+          "b": "Conservation and reversibility - Pre-operational s\ntage",
+          "c": "Symbolisation\n- Sensorimotor stage",
           "d": "Intuitive and egocentric - Concrete operations stage"
         },
         "answer": "c",
@@ -5003,7 +5003,7 @@
         "chapter_num": 1,
         "chapter": "Fundamentals of X-Ray and CT",
         "q_num": 1,
-        "question": "All among the following are ionizing radiations except :",
+        "question": "All among the following are ionizing radiations except\n:",
         "options": {
           "a": "Alpha rays",
           "b": "Beta rays",
@@ -5021,7 +5021,7 @@
         "chapter_num": 1,
         "chapter": "Fundamentals of X-Ray and CT",
         "q_num": 2,
-        "question": "What is the mechanism of heat loss in modern X-ray tubes ?",
+        "question": "What is the mechanism of heat loss in modern X-ray tubes\n?",
         "options": {
           "a": "Radiation",
           "b": "Conduction",
@@ -5057,7 +5057,7 @@
         "chapter_num": 1,
         "chapter": "Fundamentals of X-Ray and CT",
         "q_num": 4,
-        "question": "How are X-rays produced ?",
+        "question": "How are X-rays produced\n?",
         "options": {
           "a": "When electron beam strikes the nucleus of the atom in the anode",
           "b": "When electron beam decelerates close to the nucleus of the atom in the anode",
@@ -5078,7 +5078,7 @@
         "chapter_num": 1,
         "chapter": "Fundamentals of X-Ray and CT",
         "q_num": 5,
-        "question": "The photoelectric effect can be best described as an interaction between :",
+        "question": "The photoelectric effect can be best described as an interaction between\n:",
         "options": {
           "a": "High energy incident photon and the inner shell electron",
           "b": "Low energy incident photon and the outer shell electron",
@@ -5211,7 +5211,7 @@
         "chapter_num": 1,
         "chapter": "Fundamentals of X-Ray and CT",
         "q_num": 12,
-        "question": "Cardiac CT is done in which phase ?",
+        "question": "Cardiac CT is done in which phase\n?",
         "options": {
           "a": "Early systole",
           "b": "Mid systole",
@@ -5269,7 +5269,7 @@
         "chapter_num": 1,
         "chapter": "Fundamentals of X-Ray and CT",
         "q_num": 15,
-        "question": "Hounsfield unit is zero for which of the following ?",
+        "question": "Hounsfield unit is zero for which of the following\n?",
         "options": {
           "a": "Air",
           "b": "Water",
@@ -5294,12 +5294,12 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 1,
-        "question": "What is the normal urine output in adults ?",
+        "question": "What is the normal urine output in adults\n?",
         "options": {
-          "a": "400 mL /day",
-          "b": "700 mL /day",
-          "c": "1500 mL /day",
-          "d": "2500 mL /day"
+          "a": "400 mL\n/day",
+          "b": "700 mL\n/day",
+          "c": "1500 mL\n/day",
+          "d": "2500 mL\n/day"
         },
         "answer": "c",
         "explanation": "The average normal urine output is approximately 1500 mL /day. A minimum urine output of 400 mL/day is essential to excrete the end products of protein metabolism . Fluid loss occurs mainly by four routes : • Lungs: Approximately 400 mL of water is lost in expired air every 24 hours. • Skin : In a temperate climate the loss is between 600 and 1000 mL /day. • Urine: The normal urine output is approximately 1500 mL /day. • Faeces : About 60 and 150 mL of water are lost daily in patients with normal bowel function.",
@@ -5314,7 +5314,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 2,
-        "question": "Which parameter is the best guide to monitor the adequacy of fluid resuscitation in a patient ?",
+        "question": "Which parameter is the best guide to monitor the adequacy of fluid resuscitation in a patient\n?",
         "options": {
           "a": "Central venous pressure",
           "b": "Urine output",
@@ -5332,7 +5332,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 3,
-        "question": "A surgery resident during the rounds advised the intern to monitor the burns patient for adequate fluid resuscitation and also instructed him to give a bolus of 10 mL /kg body weight if the patient showed signs of hypoperfusion . All of the following are indications to give bolus fluid , except :",
+        "question": "A surgery resident during the rounds advised the intern to monitor the burns patient for\nadequate fluid resuscitation and also instructed him to give a bolus of 10 mL\n/kg body weight\nif the patient showed signs of hypoperfusion\n.\nAll of the following are indications to give bolus\nfluid\n,\nexcept\n:",
         "options": {
           "a": "Tachycardia",
           "b": "Low haematocrit",
@@ -5368,7 +5368,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 5,
-        "question": "A patient with a stab wound to the abdomen underwent an emergency laparotomy. After the damaged intestine was resected , less than 100 cm of jejunum remained and a jejunostomy was made. Which of the following is not true?",
+        "question": "A patient with a stab wound to the abdomen underwent an emergency laparotomy.\nAfter the\ndamaged intestine was resected\n,\nless than 100 cm of jejunum remained and a jejunostomy\nwas made.\nWhich of the following is not true?",
         "options": {
           "a": "The patient is a net secretor",
           "b": "Water intake should be less than a litre a day",
@@ -5386,7 +5386,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 6,
-        "question": "A patient with Crohn's disease has multiple skip lesions in the intestine . Surgical resection of damaged areas is being planned . Removal of which part will cause steatorrhoea ?",
+        "question": "A patient with Crohn's disease has multiple skip lesions in the intestine\n.\nSurgical resection of\ndamaged areas is being planned\n.\nRemoval of which part will cause steatorrhoea\n?",
         "options": {
           "a": "Duodenum",
           "b": "Jejunum",
@@ -5406,7 +5406,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 7,
-        "question": "A 66-year-old diabetic patient with a frail built comes to the OPD. His wife is concerned about his recent weight loss and lack of appetite . Which parameters will you consider while assessing his malnutrition using MUST?",
+        "question": "A 66-year-old diabetic patient with a frail built comes to the OPD.\nHis wife is concerned about\nhis recent weight loss and lack of appetite\n.\nWhich parameters will you consider while\nassessing his malnutrition using MUST?",
         "options": {
           "a": "1,3,4,",
           "b": "1,2,3,",
@@ -5424,7 +5424,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 8,
-        "question": "What is the best position for a conscious patient to be in during the insertion of a Ryle's tube ?",
+        "question": "What is the best position for a conscious patient to be in during the insertion of a Ryle's tube\n?",
         "options": {
           "a": "Supine with neck flexion",
           "b": "Supine with neck extension",
@@ -5446,7 +5446,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 9,
-        "question": "A patient in your ward is to be started on enteral nutrition. All of the following can be used as means of delivery, except :",
+        "question": "A patient in your ward is to be started on enteral nutrition.\nAll of the following can be used as\nmeans of delivery,\nexcept\n:",
         "options": {
           "a": "Sip feeding",
           "b": "PEG",
@@ -5464,7 +5464,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 10,
-        "question": "A young female patient with dysphagia is started on enteral nutrition. Which of the following complications is least likely to occur in this patient ?",
+        "question": "A young female patient with dysphagia is started on enteral nutrition.\nWhich of the following\ncomplications is least likely to occur in this patient\n?",
         "options": {
           "a": "Constipation",
           "b": "Diarrhoea",
@@ -5500,11 +5500,11 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 12,
-        "question": "A peripherally inserted central catheter line(PICC) was placed in a patient to provide parenteral nutrition. Following the insertion, a chest X-ray was taken, which appeared as shown in the image below . Which of the following is the ideal position of the tip of this catheter ?",
+        "question": "A peripherally inserted central catheter line(PIC",
         "options": {
+          "c": "Superior vena cava",
           "a": "Subclavian vein",
           "b": "Internal jugular vein",
-          "c": "Superior vena cava",
           "d": "Inferior vena cava"
         },
         "answer": "c",
@@ -5523,7 +5523,7 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 13,
-        "question": "You are asked to place a central line for providing parenteral nutrition to a critically ill patient . Which vein is the most suitable?",
+        "question": "You are asked to place a central line for providing parenteral nutrition to a critically ill\npatient\n.\nWhich vein is the most suitable?",
         "options": {
           "a": "Subclavian vein",
           "b": "External jugular vein",
@@ -5543,11 +5543,11 @@
         "chapter_num": 1,
         "chapter": "Fluids, Electrolytes & Nutrition",
         "q_num": 14,
-        "question": "A patient has been on total parenteral nutrition via a central venous catheter for 5 weeks . All of the following should be done, except:",
+        "question": "A patient has been on total parenteral nutrition via a central venous catheter for 5 weeks\n.\nAll\nof the following should be done,\nexcept:",
         "options": {
           "a": "Monitor for any signs of sudden glucose intolerance",
           "b": "Electrolytes must be checked every 2-3 days",
-          "c": "LFT , BUN must be done once weekly",
+          "c": "LFT\n,\nBUN must be done once weekly",
           "d": "Change central venous catheter tube every two weeks"
         },
         "answer": "d",

@@ -829,6 +829,7 @@ html_content = f'''<!DOCTYPE html>
       color: #fff;
       line-height: 1.6;
       margin-bottom: 24px;
+      white-space: pre-wrap;
     }}
 
     /* CLINICAL IMAGE GALLERY */
@@ -862,7 +863,7 @@ html_content = f'''<!DOCTYPE html>
       max-height: 360px;
       object-fit: contain;
       display: block;
-      background: #000;
+      background: #fff;
     }}
     .img-zoom-hint {{
       position: absolute;
@@ -928,6 +929,7 @@ html_content = f'''<!DOCTYPE html>
       font-weight: 500;
       color: var(--text-main);
       flex-grow: 1;
+      white-space: pre-wrap;
     }}
 
     /* Selected state */
@@ -983,6 +985,7 @@ html_content = f'''<!DOCTYPE html>
       font-size: 14px;
       line-height: 1.7;
       color: #cbd5e1;
+      white-space: pre-wrap;
     }}
     .sol-images-wrap {{
       margin-top: 16px;
@@ -1001,6 +1004,7 @@ html_content = f'''<!DOCTYPE html>
     .sol-img-card img {{
       width: 100%;
       display: block;
+      background: #fff;
     }}
 
     /* Question Action Footer */
@@ -1272,6 +1276,7 @@ html_content = f'''<!DOCTYPE html>
       display: block;
       border-radius: var(--radius-md);
       object-fit: contain;
+      background: #fff;
     }}
     .lightbox-close {{
       position: absolute;

@@ -266,7 +266,8 @@ def extract_subject(pdf_file):
             stext = sm.group(2).replace('Sold by @itachibot', '').replace('---PAGE---', '')
             stext = re.sub(r'\n\s*\d+\s*\n', '\n', stext)
             stext = re.sub(r'/[0-9]+$', '', stext.strip())
-            sols[qn] = ' '.join(stext.split())
+            sols[qn] = '\n'.join([line.strip() for line in stext.split('\n') if line.strip()])
+
         
         # 3. Questions
         q_part = ch_text.split('Answer Key')[0]
@@ -279,9 +280,10 @@ def extract_subject(pdf_file):
             q_body = q_splits[i+1]
             qn = int(re.search(r'\d+', q_hdr).group(0))
             
-            opt_splits = re.split(r'([a-d]\))', q_body)
+            opt_splits = re.split(r'([a-dA-D]\))', q_body)
             q_text = re.sub(r'---PAGE---|\d+$', '', opt_splits[0]).strip()
-            q_text = ' '.join(q_text.split())
+            q_text = '\n'.join([line.strip() for line in q_text.split('\n') if line.strip()])
+
             
             opts = {}
             if len(opt_splits) > 1:
@@ -289,7 +291,8 @@ def extract_subject(pdf_file):
                     let = opt_splits[j][0].lower()
                     val = opt_splits[j+1] if j+1 < len(opt_splits) else ''
                     val = re.sub(r'---PAGE---|\d+$', '', val).strip()
-                    opts[let] = ' '.join(val.split())
+                    opts[let] = '\n'.join([line.strip() for line in val.split('\n') if line.strip()])
+
             
             if len(opts) >= 2 and len(q_text) > 10:
                 # Save question images if any
